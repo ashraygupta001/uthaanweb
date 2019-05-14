@@ -1,0 +1,132 @@
+#uthaanlogo{
+     height:55px;
+     width: 99x;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    line-height: 70px;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    position: relative;
+    color: #425BB5;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+h4:before {
+    position: absolute;
+    width: 30px;
+    left: -40px;
+    content: "";
+    display: block;
+    height: 2px;
+    background: #425BB5;
+    top: 9px;
+}
+.navbar-default {
+  background-color: transparent;
+    min-height: 50px;
+}
+
+.main-header {
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: cover;
+  min-height: 610px;
+}
+
+.bg-color {
+  background-color: RGBA(0, 0, 0, 0.41);
+}
+
+.nav>li>a {
+  padding: 0px;
+}
+
+.navbar-brand {
+  padding: 0px;
+  height: inherit;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #FFD34E;
+  text-transform: uppercase;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #FFD34E;
+}
+
+.navbar-fixed-top {
+  padding: 40px 0;
+  transition: all 0.5s;
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.8);
+		border-top: 0;
+	}
+}
+
+.top-nav-collapse {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 25px 0;
+}
+.wrapper {
+  padding: 200px 0px 130px;
+}
+
+.top-title {
+  z-index: 5;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 55px;
+  letter-spacing: 4px;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 55 px;
+  letter-spacing: 4px;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 55 px;
+  letter-spacing: 4px;
+  opacity: 1;
+  text-transform: uppercase;
+  padding: 25px 0px;
+}
+

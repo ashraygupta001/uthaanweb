@@ -1,34 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-      <style>
-        html{
-          scroll-behavior: smooth;
-        }
-      </style>
         <title>Uthaan</title>
         <link rel="icon" href="1.png">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
     
 <body>
-    <header class=" navbar-fixed-top">
- <nav>
+    <header class="main-header" id="header">
+         <div class="bg-color">
+ <nav class="nav navbar-default navbar-fixed-top">
      <div class="container">
      <div class="navbar-header">
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Nav">
-                        <span style="background-color: black" class="icon-bar"></span>
-                        <span style="background-color: black" class="icon-bar"></span>
-                        <span style="background-color: black" class="icon-bar"></span>
-         </button>
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="fa fa-bars"></span>
+                        </button>
          <div>
-             <a href="file:///C:/wamp64/www/uthaan/home.html#projects"><img src="1.png" id="uthaanlogo"></a>
+             <a href="home.html"><img src="img/uthaan.png" id="uthaanlogo"></a>
          </div>
          </div>
-         <div class="collapse navbar-collapse" id="Nav" >
+         <div class="collapse navbar-collapse" id="mynavbar" >
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"id="interviews"class="interviews"> Interviews </a></li>
+                         <li class="active"><a href="#header">Home</a></li>
+                        <li><a href="#interview"> Interviews </a></li>
                         <li><a href="#"id="events"class="events"> Events </a></li>
                         <li><a href="#"id="shows"class="shows"> Shows </a> </li>
                         <li><a href="#"id="articles"class="articles"> Article </a></li> 
@@ -37,9 +36,32 @@
                 </div>          
          </div>
     </nav>
+              <div class="container text-center">
+        <div class="wrapper wow fadeInUp delay-05s">
+          <h2 class="top-title">TO Seek To Find </h2>
+          <h3 class="title">And</h3>
+          <h4 class="sub-title">Not To Yield</h4>
+        </div>
+      </div>
+        </div>
     </header>
-                <script rel="stylesheet" src="http://code.jquery.com/jquery-2.1.4.js"></script>
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="logic.js"></script> 
+  <section id="interview" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 wow fadeInLeft delay-05s">
+          <div class="section-title">
+            <h2 class="head-title">Interviews</h2>
+            <hr class="botm-line">
+            <p class="sec-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+     <script  type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script  type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script  type="text/javascript" src="js/wow.js"></script>
+    <script type="text/javascript" src="js/logic.js"></script> 
 </body>
 </html>
