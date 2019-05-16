@@ -33,11 +33,6 @@ h4:before {
     min-height: 50px;
 }
 
-.main-header {
-  background: url(../img/banner.jpg) no-repeat;
-  background-size: cover;
-  min-height: 610px;
-}
 
 .bg-color {
   background-color: RGBA(0, 0, 0, 0.41);
