@@ -2,32 +2,6 @@
      height:40px;
      width: 99x;
 }
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 80px;
-    line-height: 70px;
-}
-
-h4 {
-    font-family: 'Lato', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    position: relative;
-    color: #425BB5;
-    margin-left: 40px;
-    font-weight: 700;
-}
-
-h4:before {
-    position: absolute;
-    width: 30px;
-    left: -40px;
-    content: "";
-    display: block;
-    height: 2px;
-    background: #425BB5;
-    top: 9px;
-}
 .navbar-default {
   background-color: transparent;
     min-height: 50px;
@@ -123,5 +97,97 @@ h4:before {
   opacity: 1;
   text-transform: uppercase;
   padding: 25px 0px;
+}
+.peacock {
+	display: block;
+	margin: 0 auto;
+}
+
+.peacock__feathers use {
+	transform-origin: 150px 150px;
+	animation-direction: alternate;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.peacock__feathers use:nth-child(2) {
+	animation-name: anim-feather-2;
+}
+
+.peacock__feathers use:nth-child(3) {
+	animation-name: anim-feather-3;
+}
+
+.peacock__feathers use:nth-child(4) {
+	animation-name: anim-feather-4;
+}
+
+.peacock__feathers use:nth-child(5) {
+	animation-name: anim-feather-5;
+}
+
+.peacock__feathers use:nth-child(6) {
+	animation-name: anim-feather-6;
+}
+
+.peacock__feathers use:nth-child(7) {
+	animation-name: anim-feather-7;
+}
+
+@keyframes anim-feather-2 {
+	from {transform: rotate(23deg);}
+	to {transform: rotate(20deg);}
+}
+
+@keyframes anim-feather-3 {
+	from {transform: rotate(46deg);}
+	to {transform: rotate(40deg);}
+}
+
+@keyframes anim-feather-4 {
+	from {transform: rotate(69deg);}
+	to {transform: rotate(60deg);}
+}
+
+@keyframes anim-feather-5 {
+	from {transform: rotate(-23deg);}
+	to {transform: rotate(-20deg);}
+}
+
+@keyframes anim-feather-6 {
+	from {transform: rotate(-46deg);}
+	to {transform: rotate(-40deg);}
+}
+
+@keyframes anim-feather-7 {
+	from {transform: rotate(-69deg);}
+	to {transform: rotate(-60deg);}
+}
+
+.peacock__crown {
+	animation-name: anim-crown;
+	animation-direction: alternate;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.peacock__crown, .peacock__crown use {
+	transform-origin: 150px 75px;
+}
+
+@keyframes anim-crown {
+	from {transform: rotate(-45deg);}
+	to {transform: rotate(-60deg);}
+}
+.about{
+    display: grid;
+    grid-template-columns: 64% 36%; 
+    margin: 30px;
+    grid-gap: 5em;
+}
+.aboutitem1{
+    border: 3.1px solid #FF7F50;
+    margin: auto;
+    box-shadow: 0 1px 5px rgba(0,0,0,1)
 }
 

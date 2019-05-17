@@ -26,7 +26,7 @@
   color: #fff;
 }
 #main-slider .slider-inner h2 > span {
-  color: #BE1414;
+  color:  #FFD34E;
 }
 #main-slider .slider-inner .btn {
   margin-top: 10px;
@@ -51,7 +51,7 @@
 }
 #main-slider .owl-prev:hover,
 #main-slider .owl-next:hover {
-  background-color: #BE1414;
+  background-color:  #FFD34E;
 }
 #main-slider .owl-prev {
   left: -35px;
@@ -65,7 +65,7 @@
   width: 0%;
   max-width: 100%;
   height: 4px;
-  background: #BE1414;
+  background:  #FFD34E;
 }
 #progressBar {
   margin-top: -4px;
