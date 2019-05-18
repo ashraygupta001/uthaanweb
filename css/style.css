@@ -179,12 +179,6 @@
 	from {transform: rotate(-45deg);}
 	to {transform: rotate(-60deg);}
 }
-.about{
-    display: grid;
-    grid-template-columns: 64% 36%; 
-    margin: 30px;
-    grid-gap: 5em;
-}
 .aboutitem1{
     border: 3.1px solid #FF7F50;
     margin: auto;
@@ -197,14 +191,8 @@
 .team .b1{
 	padding-left:0;
 }
-.team .b3{
-	padding-right:0;
-}
-.team img{
-	margin:0 auto;
-}
 .team h4{
-	margin-top: 24px;
+    margin-top: -24px;
 	font-size:20px;
 	color:#2f2f2f;
 	font-family: 'Roboto', 'sans-serif';
@@ -226,25 +214,7 @@
 	line-height: 24px;
 
 }
-.team ul{
-	margin-top: 2px;
-	padding-left:0px;
-	display: inline-block;
-	margin:0 auto;
-}
-.team ul li{
-	padding:0 10px;
-	float:left;
-	list-style:none;
-	font-family: FontAwesome;
-	font-size:15px;
-}
-.team ul li a{
-	color:#2f2f2f;
-}
-.team ul li a:hover{
-	color:#1fcdff;
-}
+
 .hello{
 	     margin-top:10px;
 	     margin-right:-140px;
