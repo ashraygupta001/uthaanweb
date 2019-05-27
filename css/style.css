@@ -222,7 +222,6 @@
 	}
 .hello2{
 		 margin-top:80px;
-	     margin-right:-58px;
 	} 
 /*---------------------------------------
   Buttons               
@@ -247,4 +246,17 @@
 .section-btn:hover {
   background: #FFD34E;
   color: #000000;
+}
+.images{
+    position:relative;
+    top: -90px;
+}
+.images{
+    webkit-webkit-transition:all is ease;
+     -moz-webkit-transition:all is ease;
+     -ms-webkit-transition:all is ease;
+      -o-webkit-transition:all is ease;
+}
+.images img:hover{
+    -webkit-filter:blur(3px);
 }
