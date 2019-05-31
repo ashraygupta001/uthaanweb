@@ -38,16 +38,13 @@
   });
 
 })(jQuery);
-/**
- * main.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2016, Codrops
- * http://www.codrops.com
- */
+/* gallery
+******************
+****************
+*****************
+
+*/
+
 ;(function(window) {
 
 	'use strict';
@@ -85,7 +82,6 @@
 			uncover : ['M 0,0 10,0 10,10 0,10 Z', 'M 0,0 10,0 10,6 0,8 Z', 'M 0,0 10,0 10,0 0,0 Z']
 		}
 	};
-
 	/**
 	 * Create and store the GridItem objs. Initialize SVG Path settings.
 	 */
@@ -394,6 +390,26 @@
 	document.documentElement.className = 'js';
 
 })(window);
+//    featured slider
+    var swiper = new Swiper('.swiper-container', {
+//        pagination: '.swiper-pagination',
+        loop: true,
+        slidesPerView: 'auto',
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        coverflow: {
+            rotate: 5,
+            stretch: 0,
+            depth: 100,
+            modifier: 3,
+            slideShadows: false
+        }
+    });
+
 
 
 

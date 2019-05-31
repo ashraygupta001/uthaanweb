@@ -7,7 +7,7 @@
 
 .js .grid {
 	position: absolute;
-	top: 0;
+	top: 405%;
 	left: 0;
 	pointer-events: none;
 	opacity: 0;
@@ -75,6 +75,7 @@
 .grid-nav {
 	position: absolute;
 	z-index: 1000;
+    top: 490%;
 	right: 0;
 	bottom: 0;
 	padding: 1.5em 2.15em;
@@ -316,35 +317,39 @@
 
 @media screen and (max-width: 50em) {
 	.js .grid-pages {
+        margin-top: 1110px;
 		position: relative;
 		overflow: scroll;
 		height: 100vh;
 	}
 	.js .grid {
-		height: 0;
+		height: 0;  
 	}
 	.js .grid--current {
 		height: auto;
 	}
 	.grid {
 		padding: 0 0 2em;
-		border-bottom: none;
+		border-bottom: none;   
 	}
 	.js .grid__column:last-child {
 		padding-bottom: 3.75em;
 	}
 	.grid__item--auto {
 		flex: none;
+        
 	}
 	.grid__item:not(.grid__item--auto) {
 		min-height: 120px;
+        
 	}
 	.grid-nav {
-		position: fixed;
 		width: 100%;
+        margin-top: 150px;
 		padding: 0.25em;
 		text-align: center;
 		background: #02161e;
+        
 	}
 	.grid--style-2 ~ .grid-nav {
 		padding: 0.25em;
