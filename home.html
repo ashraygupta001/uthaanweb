@@ -15,11 +15,12 @@
         <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
         
         <!-- -->
          <link href="css/main.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <link rel="stylesheet" type="text/css" href="css/main1.css" />
          <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
          <link rel="stylesheet" type="text/css" href="css/plyr.css" />
         <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -228,132 +229,58 @@ html {
     <center> <a href="blogs.html" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: -90px;">discover more</a></center>
         </div>
     </section>
-        <section id="gallery" class="section-padding" style="background-image: url(img/aboutsection.jpeg); width:100%; height :500px; margin-top: 100px;">
-            <div class="container">
-                <center> <div class="wow fadeInDown gallery1" style="margin-top: 50px;"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900;">Gallery</h2></div></center>
-                <div class="img-gallery">
-                <svg class="hidden">
-			<defs>
-				<symbol id="icon-arrow" viewBox="0 0 32 32">
-					<title>arrow</title>
-					<path class="path1" d="M7.333 24c-0.133 0-0.4 0-0.533-0.133l-6.667-6.667c0 0-0.133-0.133-0.133-0.267s0-0.133 0-0.267c0 0 0 0 0 0 0-0.133 0-0.133 0-0.267s0.133-0.133 0.133-0.267l6.667-6.667c0.4-0.133 0.8-0.133 1.067 0s0.267 0.667 0 0.933l-5.6 5.6h29.067c0.4 0 0.667 0.267 0.667 0.667s-0.267 0.667-0.667 0.667h-29.067l5.467 5.467c0.267 0.267 0.267 0.667 0 0.933 0 0.267-0.267 0.267-0.4 0.267z"></path>
-				</symbol>
-				<symbol id="icon-drop" viewBox="0 0 32 32">
-					<title>drop</title>
-					<path class="path1" d="M17.333 32c-5.867 0-10.667-4.8-10.667-10.667 0-5.6 9.733-20.4 10.133-21.067 0.267-0.4 0.8-0.4 1.067 0 0.4 0.667 10.133 15.467 10.133 21.067 0 5.867-4.8 10.667-10.667 10.667zM17.333 1.867c-2.133 3.333-9.333 14.933-9.333 19.467 0 5.2 4.133 9.333 9.333 9.333s9.333-4.133 9.333-9.333c0-4.533-7.2-16.133-9.333-19.467z"></path>
-					<path class="path2" d="M13.333 26.533c-0.133 0-0.267 0-0.4-0.133-1.467-1.333-2.267-3.2-2.267-5.067 0-1.6 1.2-4.533 3.467-8.933 0.133-0.4 0.533-0.533 0.933-0.267 0.267 0.133 0.4 0.533 0.267 0.933-2.133 4-3.333 6.933-3.333 8.267 0 1.467 0.667 2.933 1.733 4 0.267 0.267 0.267 0.667 0 0.933 0 0.133-0.267 0.267-0.4 0.267z"></path>
-				</symbol>
-				<!-- icons for grid -->
-				<symbol id="icon-nav" viewbox="0 0 129 129">
-					<title>nav</title>
-					<!-- by Lucy G http://www.flaticon.com/free-icon/down-arrow_118738 -->
-					<path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"/>
-				</symbol>
-				<symbol id="icon-cross" viewbox="0 0 129 129">
-					<title>cross</title>
-					<!-- by Lucy G http://www.flaticon.com/free-icon/cancel_118741 -->
-					<path d="M7.6,121.4c0.8,0.8,1.8,1.2,2.9,1.2s2.1-0.4,2.9-1.2l51.1-51.1l51.1,51.1c0.8,0.8,1.8,1.2,2.9,1.2c1,0,2.1-0.4,2.9-1.2c1.6-1.6,1.6-4.2,0-5.8L70.3,64.5l51.1-51.1c1.6-1.6,1.6-4.2,0-5.8s-4.2-1.6-5.8,0L64.5,58.7L13.4,7.6C11.8,6,9.2,6,7.6,7.6s-1.6,4.2,0,5.8l51.1,51.1L7.6,115.6C6,117.2,6,119.8,7.6,121.4z"/>
-				</symbol>
-			</defs>
-		</svg>
-		<main>
-			<div class="grid-pages">
-				<div class="grid grid--vertical grid--current grid--style-1" data-path-cover="M 0,0 L 0,0 C 0,0 0,0 0,5 C 0,10 0,10 0,10 L 0,10 Z;M 0,0 L 0,0 C 0,0 5,0 5,5 C 5,10 0,10 0,10 L 0,10 Z;M 0,0 L 10,0 C 10,0 10,0 10,5 C 10,10 10,10 10.1,10 L 0,10 Z" data-path-uncover="M 0,0 L 10,0 C 10,0 10,0 10,5 C 10,10 10,10 10,10 L 0,10 Z;M 0,0 L 10,0 C 10,0 5,0 5,5 C 5,10 10,10 10,10 L 0,10 Z;M 0,0 L 0,0 C 0,0 0,0 0,5 C 0,10 0,10 0,10 L 0,10 Z" data-duration="1000" data-easing-in="easeInExpo" data-easing-out="easeOutExpo">
-					<div class="grid__column">
-						<div class="grid__item grid__item--auto">
-				<div class="grid__img" style="background-image: url(img/5.jpg);"></div>
-						</div>
-						<div class="grid__item" data-delay="75" data-duration="800">
-							<div class="grid__img" style="background-image: url(img/5.jpg);"></div>
-						</div>
-					</div>
-					<div class="grid__column">
-						<div class="grid__item" data-delay="100">
-							<div class="grid__img" style="background-image: url(img/15.jpg);"></div>
-						</div>
-						<div class="grid__item" data-delay="150" data-duration="1200">
-							<div class="grid__img" style="background-image: url(img/4.jpg);"></div>
-						</div>
-						<div class="grid__item" data-delay="300" data-duration="500">
-							<div class="grid__img" style="background-image: url(img/13.jpg);"></div>
-						</div>
-					</div>
-					<div class="grid__column">
-						<div class="grid__item grid__item--auto" data-delay="190">
-				<div class="grid__img" style="background-image: url(img/13.jpg);"></div>
-						</div>
-						<div class="grid__item" data-delay="250">
-							<div class="grid__img" style="background-image: url(img/6.jpg);"></div>
-						</div>
-					</div>
-				</div>
-				<div class="grid grid--vertical grid--style-1" data-path-cover="M 0,0 L 10,0 L 10,0 C 10,0 10,0 5,0 C 0,0 0,0 0,0 Z;M 0,0 L 10,0 L 10,0 C 10,0 10,5 5,5 C 0,5 0,0 0,0 Z;M 0,0 L 10,0 L 10,10 C 10,10 10,10 5,10 C 0,10 0,10 0,10 Z" data-path-uncover="M 10,0 L 0,0 C 0,0 0,0 0,5 C 0,10 0,10 0,10 L 10,10 Z;M 10,0 L 0,0 C 0,0 5,0 5,5 C 5,10 0,10 0,10 L 10,10 Z;M 10,0 L 10,0 C 10,0 10,0 10,5 C 10,10 10,10 10,10 L 10,10 Z" data-duration="1000" data-easing-in="easeInExpo" data-easing-out="easeOutExpo">
-					<div class="grid__column">
-						<div class="grid__item">
-							<div class="grid__img" style="background-image: url(img/3.jpg);"></div>
-						</div>
-						<div class="grid__item" data-delay="150">
-							<div class="grid__img" style="background-image: url(img/12.jpg);"></div>
-						</div>
-					</div>
-					<div class="grid__column">
-						<div class="grid__item" data-delay="200" data-duration="800">
-							<div class="grid__img" style="background-image: url(img/2.jpg);"></div>
-						</div>
-					</div>
-					<div class="grid__column">
-						<div class="grid__item" data-delay="310" data-duration="550">
-							<div class="grid__img" style="background-image: url(img/8.jpg);"></div>
-						</div>
-						<div class="grid__item" data-delay="250">
-							<div class="grid__img" style="background-image: url(img/9.jpg);"></div>
-						</div>
-						<div class="grid__item" data-delay="50" data-duration="950">
-							<div class="grid__img" style="background-image: url(img/10.jpg);"></div>
-						</div>
-					</div>
-				</div>
-				<div class="grid grid--vertical grid--style-1" data-path-cover="M 0,10 L 10,10 L 10,10 C 10,10 10,10 5,10 C 0,10 0,10 0,10 Z;M 0,10 L 10,10 L 10,10 C 10,10 10,5 5,5 C 0,5 0,10 0,10 Z;M 0,10 L 10,10 L 10,0 C 10,0 10,0 5,0 C 0,0 0,0 0,0 Z" data-path-uncover="M 10,10 L 10,0 C 10,0 10,0 5,0 C 0,0 0,0 0,0 L 0,10 Z;M 10,10 L 10,0 C 10,0 10,5 5,5 C 0,5 0,0 0,0 L 0,10 Z;M 10,10 L 10,10 C 10,10 10,10 5,10 C 0,10 0,10 0,10 L 0,10 Z" data-duration="1000" data-easing-in="easeInExpo" data-easing-out="easeOutExpo">
-					<div class="grid__column">
-						<div class="grid__item">
-							<div class="grid__img" style="background-image: url(img/17.jpg);"></div>
-						</div>
-						<div class="grid__item" data-delay="50">
-							<div class="grid__img" style="background-image: url(img/16.jpg);"></div>
-						</div>
-						<div class="grid__item" data-delay="150" data-duration="650">
-							<div class="grid__img" style="background-image: url(img/7.jpg);"></div>
-						</div>
-					</div>
-					<div class="grid__column">
-						<div class="grid__item" data-delay="210" data-duration="800">
-							<div class="grid__img" style="background-image: url(img/14.jpg);"></div>
-						</div>
-						<div class="grid__item" data-delay="150">
-							<div class="grid__img" style="background-image: url(img/11.jpg);"></div>
-						</div>
-					</div>
-				</div>
-				<div class="grid grid--vertical grid--style-1" data-path-cover="M 10,0 L 10,10 L 10,10 C 10,10 10,10 10,5 C 10,0 10,0 10,0 Z;M 10,0 L 10,10 L 10,10 C 10,10 5,10 5,5 C 5,0 10,0 10,0 Z;M 10,0 L 10,10 L 0,10 C 0,10 0,10 0,5 C 0,0 0,0 0,0 Z" data-path-uncover="M 10,0 L 10,10 C 10,10 10,10 5,10 C 0,10 0,10 0,10 L 0,0 Z;M 10,0 L 10,10 C 10,10 10,5 5,5 C 0,5 0,10 0,10 L 0,0 Z;M 10,0 L 10,0 C 10,0 10,0 5,0 C 0,0 0,0 0,0 L 0,0 Z" data-duration="1100" data-easing-in="easeInExpo" data-easing-out="easeOutExpo">
-					<div class="grid__column">
-						<div class="grid__item">
-							<div class="grid__img" style="background-image: url(img/1.jpg);"></div>
-						</div>
-					</div>
-				</div>
-				<nav class="grid-nav">
-					<button class="grid__button grid__button--prev" aria-label="Previous page"><svg class="icon icon--nav-up"><use xlink:href="#icon-nav"></use></svg></button>
-					<button class="grid__button grid__button--next" aria-label="Next page"><svg class="icon icon--nav-down"><use xlink:href="#icon-nav"></use></svg></button>
-				</nav>
-			</div><!-- /grid-pages -->
-		</main>
+        <section id="gallery" class="section-padding" style="margin-top: 150px;">
+            <div class="gallery1">
+                <div class="container" id="wrapper1">
+                <center> <div class="wow fadeInDown"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900; margin-bottom: 20px;">Gallery</h2></div></center>
+                <section id="main">
+
+						<!-- Thumbnails -->
+							<section class="thumbnails">
+								<div>
+									<a href="images/fulls/01.jpg">
+										<img src="images/thumbs/01.jpg" alt="" />
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</a>
+									<a href="images/fulls/02.jpg">
+										<img src="images/thumbs/02.jpg" alt="" />
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</a>
+								</div>
+								<div>
+									<a href="images/fulls/03.jpg">
+										<img src="images/thumbs/03.jpg" alt="" />
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</a>
+									<a href="images/fulls/04.jpg">
+										<img src="images/thumbs/04.jpg" alt="" />
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</a>
+									<a href="images/fulls/05.jpg">
+										<img src="images/thumbs/05.jpg" alt="" />
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</a>
+								</div>
+								<div>
+									<a href="images/fulls/06.jpg">
+										<img src="images/thumbs/06.jpg" alt="" />
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</a>
+									<a href="images/fulls/07.jpg">
+										<img src="images/thumbs/07.jpg" alt="" />
+										<h3>Lorem ipsum dolor sit amet</h3>
+									</a>
+								</div>
+							</section>
+
+					</section>
+                     <center> <a href="gallery.html" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-bottom: 10px;">discover more</a></center>
                 </div>
-            
             </div>
         </section>
-          <section id="events" class="section-padding" style="background-image: url(img/aboutsection.jpeg); width:100%; height :500px; margin-top:270px;" >
+          <section id="events" class="section-padding" style="background-image: url(img/aboutsection.jpeg); width:100%; height :500px; " >
               <div class="container">
-                  <center> <div class="wow fadeInDown" style="margin-top: 50px;"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900;"> Events </h2></div></center>
+                  <center> <div class="wow fadeInDown"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900;"> Events </h2></div></center>
 
          <section>
                 <div class="container">
@@ -363,7 +290,8 @@ html {
                                 <div class="swiper-container">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide" style="background-image:url(img/black-and-white-black-background-camera-1595244.jpg)">
-                                        <h3 style="position: absolute; top: 2%;">Ipl Auction</h3> 
+                                        <h3 style="position: absolute; top: 2%; color: wheat;font-family: 'Courgette', cursive; font-size: 40px; font-size-adjust: auto;">In The Moment</h3>
+                                            <img src="teamimg/sakshi.jpg" class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
                                         </div>
                                         <div class="swiper-slide" style="background-image:url(img/)"></div>
                                         <div class="swiper-slide" style="background-image:url(img/431.jpg)"></div>
@@ -399,6 +327,9 @@ html {
      <script src="js/swiper.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
      <script type="text/javascript" src="js/logic.js"></script> 
+    <script src="js/skel.min.js"></script>
+    <script src="js/main1.js"></script>
+    <script src="js/jquery.poptrox.min.js"></script>
     <!-- -->
     <script>
 		(function() {
