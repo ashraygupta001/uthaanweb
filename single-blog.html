@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
          <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
          <link href="css/owl.carousel.css" rel="stylesheet">
          <link href="css/owl.transitions.css" rel="stylesheet">
         <!-- Fonts -->
@@ -15,12 +15,12 @@
         <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Satisfy" />
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
         
         <!-- -->
          <link href="css/main.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/about.css" type="text/css">
+         <link rel="stylesheet" type="text/css" href="css/plyr.css" />
+        <link rel="stylesheet" type="text/css" href="css/single-post.css" />
     <style>
         #HR{
             visibility: hidden;
@@ -28,256 +28,188 @@
         </style>
         <style type="text/css">
 html {
-        overflow-x: hidden;
+        overflow-x:hidden ;
 }
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-*{
-  /* I know I could write "margin: 0; padding: 0;". But that's not performant. */
-  font-family: 'Open Sans';
-  line-height: 170%;
-  color: #444;
-}
-body, p, h1, h2{
-  margin: 0;
-  padding: 0;
-}
-h2{
-  margin-top: 20px;
-}
-mark {
-  background-color: white;
-  padding: 0px 3px;
-} 
-
-.wrapper{
-  padding: 100px;
-  margin: 0 0 50px 0;
-  text-align: left;
-  height: 40vh;
-  background: url('https://source.unsplash.com/KqVHRmHVwwM/1600x900') no-repeat center center fixed;
-  background-size: cover;
-  transition: all 0.4s ease;
-}
-.articleText{
-  margin-left:10px ; 
-  width: 100%;
-  max-width: 1200px;
-  padding-left: 20px;
-  border-left: 1px solid #cccccc;
-  transition: all 0.4s ease;
-}
-.introduction{
-  margin-bottom: 20px;
-}
-.accountInfo{
-  transition: all ease 0.5s;
-  display: none;
-  height: 420px;
-  width: 250px;
-  background: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.accountInfo .header{
-  background: url('https://source.unsplash.com/V6s1cmE39XM/250x250') no-repeat;
-  height: 120px;
-  width: 100%;
-  padding: 20px 10px;
-}
-.accountInfo .profilePicture{
-  z-index: 1;
-  margin: -25px auto 10px auto;
-  background: url('https://source.unsplash.com/LyeduBb2Auk/100x100') no-repeat;
-  height: 100px;
-  width: 100px;
-  border-radius: 5px;
-}
-.accountInfo .profileText{
-  text-align: center;
-  margin-bottom: 20px;
-}
-button{
-  font-size: 16px;
-  width: 100%;
-  background: white;
-  border: 0;
-  padding: 12px 0px;
-  transition: all ease 0.5s;
-  cursor: pointer;
-}
-button:hover{
-  box-shadow: inset 400px 0 0 0 #444;
-  color: white;
-}
-
-@media only screen and (max-width: 1000px) {
-    /* For tablets: */
-  .articleText {
-    margin: 0 10% 30px 10%; 
-    width: 80%;
-    max-width: 800px;
-    padding-left: 0px;
-    border: 0;
-  }
-}
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-  .articleText {
-    margin: 0 5% 30px 5%; 
-    width: 90%;
-  }
-  .wrapper{
-    padding: 5%;
-  }
-}
-
-
 </style>
-</head> 
-<body>
+</head>
     
-    <!--Blog-area-->
-    <div class="article">
-      <div class="wrapper">
-        <div class="wrapperText">
-          <h1>
-            <mark>VR in Education: A Pathway to immersive learning</mark>
-          </h1>
-          <p id="author">
-            <mark>by Piyush Chetwani (2018IMG) , 2019-03-01</mark>
-          </p>
-        </div>
-      </div>
-      <!--The Text is generated with hipsum.co :) Check it out! -->
-        <div class="articleText">
-          <h4 class="introduction">“Classrooms are broken. Kids don’t learn the best
-by reading books.” </h4>
-          <pre style="overflow-y: auto;box-sizing: border-box; ">The synonym of a mega-project is almost always a failure; but the case of Skolkovo seems
-           to exceptional one. The Skolkovo innovation center project was launched in 2010 in south-east Moscow. The main reason
-        for the project is to create the first Russian research and innovation center that will combine science, education,
-        and business. Skolkovo is usually considered as the Russian Silicon Valley, however it is not exactly a precise comparison, 
-         because Skolkovo is a city built from nothing and the process in the heart of city development is reversed from the case of
-         Silicon Valley. There is nothing that can attract “brain” to this part of Moscow region, while Silicon Valley is an organic
-       extension of Stanford University in California. 
+<body>
+     <nav class="nav navbar-default navbar-fixed-top">
+     <div class="container">
+     <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+					<span style="background-color: aqua" class="icon-bar"></span>
+					<span style="background-color: aqua" class="icon-bar"></span>
+					<span style="background-color: aqua" class="icon-bar"></span>
+                        </button>
+         <div>
+             <a href="home.html" class="page-scroll"><img src="img/uthaan.png" id="uthaanlogo"></a>
+         </div>
+         </div>
+         <div class="collapse navbar-collapse" id="mynavbar" >
+                    <ul class="nav navbar-nav navbar-right">
+                         <li class="active"><a href="#header">Home</a></li>
+                        <li><a href="#about" class="page-scroll"> About us </a></li>
+                         <li><a href="#events"class="page-scroll"> Events </a></li>
+                        <li><a href="#show"class="page-scroll"> Shows </a> </li>
+                        <li><a href="#articles"class="page-scroll"> Articles </a></li> 
+                        <li><a href="#interview" class="page-scroll"> Interviews </a></li>
+                        <li><a href="#gallery"class="page-scroll"> Gallery </a></li>
+                         <li><a href="#" id="contactus" class="contactus"> Contact us </a></li>
+                        </ul>
+                </div>          
+         </div>
+    </nav>   
+     <section class="blog-content-area section-padding-0-100" style="margin-top: 60px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Blog Posts Area -->
+                <div class="col-12">
 
-Why is Skolkovo a Mega-Project?
+                    <!-- Post Details Area -->
+                    <div class="single-post-details-area">
+                        <div class="post-content">
 
-Skolkovo was internationally oriented and sought to symbolize the transition to the new urban forms; previously uncommon to the soviet
- city planning, as well as aiming to attract worldwide companies such as Cisco, Boeing, Siemens, and others. In according the branch of 
- science, the city is divided into 5 clusters: biomedical, nuclear, space, IT and energy. The development of each cluster is held under
-  the supervision of the architects, who designed it initially in order to stay on a western track.
+                            <div class="text-center mb-50">
+                                <p class="post-date">MAY 01, 2018 / lifestyle</p>
+                                <h2 class="post-title">Express recipes: Give a twist to your classic moong dal with this recipe</h2>
+                                <!-- Post Meta -->
+                                <div class="post-meta">
+                                    <a href="#"><span>by</span> Colorlib</a>
+                                </div>
+                            </div>
 
-The  the central element of the Skolkovo Innovation Center is the 400-hectare technology hub west of Moscow that is to be home to 30,000 
-residents by 2020..
+                            <!-- Post Thumbnail -->
+                            <div class="post-thumbnail mb-50">
+                                <img src="img/blog-img/8.jpg" alt="">
+                            </div>
 
-Officially known as Skolkovo Technopark, the hub has more than 200 startups which enjoy access to the local infrastructure, as well as
- financial and legal support that aims to foster entrepreneurship and innovation.
+                            <!-- Post Text -->
+                            <div class="post-text">
+                                <!-- Share -->
+                                <div class="post-share">
+                                    <span>Share</span>
+                                    <a href="#" class="facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                </div>
 
-The Technopark  is the largest technopark in Eastern Europe provides the dry and web labs for all research and development activities of
- Skolkovo’s resident companies. The few hundred startups currently at Skolkovo are located in the Technopark Office Center along with the
-  foundation management.
+                                <p>I love dals. All kinds of them but yellow moong dal is my go-to lentil when I am in need of some easy comfort food. In this recipe I added suva or dill leaves to the classic moong dal recipe for a twist. I like the simplicity of this recipe, just the dal, tomatoes and fresh dill with simple seasoning. This recipe is without any onions and garlic. I love the aroma of fresh dill and I think, in Indian food, we don’t really use dill as much as we can. Nine out of ten times, the only green leaves sprinkled on a curry or a dal is fresh coriander and while I love coriander too, dill adds a unique freshness and aroma to the dal. The delicate feathery leaves of dill are also rich in Vitamin A, C and minerals like iron and manganese.</p>
 
-Here are five interesting startups that are already gaining traction internationally.
+                                <p>Dals or lentils are packed with proteins and especially in a vegetarian diet, lentils are the main source of protein. It is amazing how this humble yellow moong dal can be made into so many recipes from a plain dal khichdi to mangodi ki sabzi to the traditional Indian desserts like moong dal halwa. Fresh dill should be added only at the end of cooking, much like fresh coriander leaves. They don’t really need to cook and cooking for a long time actually reduces their flavour and aroma.</p>
 
-1. VIST Robotics
+                                <blockquote class="shortcodes">
+                                    <div class="blockquote-icon">
+                                        <img src="img/core-img/quote.png" alt="">
+                                    </div>
+                                    <div class="blockquote-text">
+                                        <h5>That’s not to say you’ll have the exact same thing if you stop by: the restaurant’s menus change constantly, based on seasonal ingredients.</h5>
+                                        <h6>Ollie Schneider - <span>CEO Colorlib</span></h6>
+                                    </div>
+                                </blockquote>
 
-While robots are still a rare sight in city streets, they’re already making a difference in mining, and VIST Robotics is the force behind this.
- Russian specialists came up with a remote control system for mining equipment - such as excavators, dump trucks and loaders - making it possible
-  to mine the quarry without humans present. VIST’s “smart quarry” project will increase mining effectiveness by 15-20 percent, cut costs by up
-   to 15 percent, increase the safety of mining and help carry out this work in remote and severe climatic regions, not only in Russia, but in any
-    part of the world.
+                                <p>Dals or lentils are packed with proteins and especially in a vegetarian diet, lentils are the main source of protein. It is amazing how this humble yellow moong dal can be made into so many recipes from a plain dal khichdi to mangodi ki sabzi to the traditional Indian desserts like moong dal halwa. Fresh dill should be added only at the end of cooking, much like fresh coriander leaves. They don’t really need to cook and cooking for a long time actually reduces their flavour and aroma.</p>
 
-2. Dommar (3D Smile Lab)
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <img class="mb-30" src="img/blog-img/4.jpg" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <img class="mb-30" src="img/blog-img/3.jpg" alt="">
+                                    </div>
+                                </div>
 
-While long the most popular way to straighten one’s teeth, braces are now losing ground in Russia and across the globe. Transparent aligners were
- previously considered as too expensive for teeth correction, but this might change. Russia’s 3D Smile Lab is making aligners affordable, as well
-  as more effective than international competitors because they can adjust both the tooth's crown and roots.
+                                <!-- List -->
+                                <div class="nikki-list-area mb-50">
+                                    <h4 class="mb-15">Immediate Dividends</h4>
+                                    <ul class="nikki-list">
+                                        <li>* Wash the dal in 3-4 changes of water and soak in room temperature water for 10 mins while you finish the rest of preparation.</li>
+                                        <li>* Drain and pressure cook with salt, turmeric and water for 2 whistles.</li>
+                                        <li>* Remove the cooker from heat and open only after all the steam has escaped on its own.</li>
+                                        <li>* While the dal is cooking, heat ghee in a pan. Add hing and cumin seeds.</li>
+                                        <li>* When the seeds start to crackle, add ginger, and green chillies. Sauté for a minute.</li>
+                                        <li>* Add tomatoes and a little salt. Mix well. Cook for about 5 mins with occasional stirring. Add a little water to the pan if the masala starts to stick.</li>
+                                    </ul>
+                                </div>
 
-“We work with doctors who send us a cast of their patient’s tooth, then we scan it and come up with a 3D model. Our innovative software assesses
- the model and figures out the whole cycle of treatment,” said Marina Domracheva, general director of 3D Smile Lab. “Judging by the cost, our 
- aligners are three times cheaper than Western ones and are almost equal to traditional braces that cost 200-250,000 rubles ($3,531-4,414) in 
- Moscow.”
+                                <!-- Post Tags & Share -->
+                                <div class="post-tags-share">
+                                    <!-- Tags -->
+                                    <ol class="popular-tags d-flex flex-wrap">
+                                        <li><a href="#">HealthFood</a></li>
+                                        <li><a href="#">Yoga</a></li>
+                                        <li><a href="#">Life Style</a></li>
+                                    </ol>
+                                </div>
 
- 
+                                <!-- Related Post Area -->
+                                <div class="related-posts clearfix">
+                                    <!-- Headline -->
+                                    <h4 class="headline">related posts</h4>
 
-3. Motorika
+                                    <div class="row">
 
-Founded in 2015, Motorika is “transforming humans into cyborgs,” jokes Fyodor Kubyshkin, the company’s head of bioelectric prosthesis development.
- Motorika creates upper limb electro-mechanical prostheses (traction and bionic ones) for all age groups, catering to individual needs and 
- preferences.The prostheses are individually designed and can utilize various technologies (such as PayPass), and function as a smartphone.
-  The minimum price for traction prosthesis is around 100-150,000 rubles ($1,743-$2,615), while for bionic ones - about 350,000 rubles ($6,103), 
-  depending on features.
+                                        <!-- Single Blog Post -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="single-blog-post mb-50">
+                                                <!-- Thumbnail -->
+                                                <div class="post-thumbnail">
+                                                    <a href="#"><img src="img/blog-img/1.jpg" alt=""></a>
+                                                </div>
+                                                <!-- Content -->
+                                                <div class="post-content">
+                                                    <p class="post-date">MAY 17, 2018 / lifestyle</p>
+                                                    <a href="#" class="post-title">
+                                                        <h4>A Closer Look At Our Front Porch Items From Lowe’s</h4>
+                                                    </a>
+                                                    <p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                                                </div>
+                                            </div>
+                                        </div>
 
- 
-
-4. TRY.FIT
-
-Ever struggle to find the perfect pair of shoes? Now it can be done faster and more efficiently. One of Skolkovo’s residents offers 3D scanning technology
- that finds the perfect pair of boots by scanning one’s feet. Then you can choose from available options in the database and find the footwear that
-  fits best.The app saves the 3D model and sends a purchase request to a partner shop.
-
- “Right now we are cooperating with Decathlon, Ralf Ringer and Ekonika, and also testing technology with Adidas Group, New Balance and Intersport.” 
- ,Vagan Martirosyan, general director of TRY.FIT, told Russia Beyond.
-
-5. Samocat Sharing
-
-The Russian startup, Samocat Sharing, has come up with a reliable system of renting stations for autonomous scooters that allow a user to take a kick scooter
- via a mobile app and go on their way. The cost of the service in Moscow is two rubles per minute. All scooters have anti-theft features – a solid construction
-  without screw-off components and a GPS chip that can track the scooter.
-
- 
-
- 
-
- 
-
-The features that make Skolkovo Technopark favourable are:
-
-Customs easing:
-
-• Lower rental rates for the services of a custom representative.
-
-• Reimbursement of expenses of paid import duties and VAT
-
-Tax Exemption: 
-
-• Exemption from the duties of the taxpayer for income tax.
-
-• Exemption from the duties of the taxpayer for the tax on value added.
-
-Migration policy benefits:
-
-• Cancellation of quotas on foreign labor
-
-• Cancellation of registration permit to attract and use foreign labor.
-
-• Increase the term of the permitting documents up to 3 years.
-
-Possibilty to apply for receiving a grant
-
-• Non-dilutive grants up to $10m.
-
-• 209 grants approved for the total amount of RUB 9.5bn.
-
- 
-
-The achievements one cannot deny
-
-One of the greatest achievemenst of Skolkovo as a project was the successful avoidance being transformed into an ordinary residential 
-and professional development project; which would have been the simplest way of profit extraction. In the case of Skolkovo, this scenario
- is no longer possible, as the concept shaped by the master plan is embodied on the ground and is currently functioning.
-
-Notably, Skolkovo is one of the first “elaborated” projects. Beforehand, Moscow and Russia tended to have only developers construct projects 
-aiming to bring economic benefits in a very short term. Skolkovo, on the contrary, is a long-term project launched to encourage the capitalization 
-of hard science… however, it has nothing to offer to the human sciences domain.
-
- 
-
-The Technopark is well integrated with various other technoparks, startups, incubators, universities and development organiztions viz. Asian Science 
-Park Association, Technopark Zurich, National Business Incubators Association etc., making it a part of an innovative community and a perfect platform
- for development and result-oriented collaboration.
-</pre>
-</div>
-</div>
+                                        <!-- Single Blog Post -->
+                                        <div class="col-12 col-lg-6">
+                                            <div class="single-blog-post mb-50">
+                                                <!-- Thumbnail -->
+                                                <div class="post-thumbnail">
+                                                    <a href="#"><img src="img/blog-img/4.jpg" alt=""></a>
+                                                </div>
+                                                <!-- Content -->
+                                                <div class="post-content">
+                                                    <p class="post-date">MAY 25, 2018 / Fashion</p>
+                                                    <a href="#" class="post-title">
+                                                        <h4>5 Things to Know About Dating a Bisexual</h4>
+                                                    </a>
+                                                    <p class="post-excerpt">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </section>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script  type="text/javascript" src="js/bootstrap.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script  type="text/javascript" src="js/jquery.easing.min.js"></script>
+     <script  type="text/javascript" src="js/wow.js"></script>
+     <script src="js/main.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/plyr.js"></script>
+   <script src="js/anime.min.js"></script>
+     <script src="js/swiper.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+     <script type="text/javascript" src="js/logic.js"></script> 
 </body>
 </html>
-
