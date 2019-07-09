@@ -21,7 +21,7 @@
   background-size: cover;
 }
 .show-bg{
-  background: url(../background-imager/Elegant_Background-2.jpg) no-repeat center center fixed; 
+  background: url(../background-imager/Elegant_Background-8.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,7 +41,13 @@
   -o-background-size: cover;
   background-size: cover;  
 }
-
+.contact-bg{
+         background: url(../img/map-image.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .bg-color {
   background-color: RGBA(0, 0, 0, 0.41);
 }
