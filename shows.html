@@ -18,6 +18,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Uthaan | Shows</title>
     <style type="text/css">
+         ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
         h1{
             margin: 0;
             padding: 0;
@@ -135,6 +140,87 @@
                 text-align: center;
             }
         }
+        .contact-area {
+    border-bottom: 1px solid #353C46;
+    padding: 70px 0 70px 0;
+}
+.contact-content p {
+    font-size: 15px;
+    margin: 30px 0 60px;
+    position: relative;
+}
+
+.contact-content p::after {
+    background: #353C46;
+    bottom: -30px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+.contact-content h6 {
+    color: #8b9199;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact-content span {
+    color: #353c47;
+    margin: 0 10px;
+}
+
+.contact-social {
+    margin-top: 30px;
+}
+
+.contact-social > ul {
+    display: inline-flex;
+}
+
+.contact-social ul li a {
+    border: 1px solid #8b9199;
+    color: #8b9199;
+    display: inline-block;
+    height: 40px;
+    margin: 0 10px;
+    padding-top: 7px;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+
+.contact-social ul li a:hover {
+    border: 1px solid #FAB702;
+    color: #FAB702;
+}
+
+.contact-content img {
+    max-width: 210px;
+}
+
+footer {
+    background: #1A1E25;
+    color: #868c96;
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 44px;
+}
+
+
     </style>
 </head>
 <body style="background-color: #0f0f0a">
@@ -237,5 +323,36 @@
 
 
 </div>
+    <section class="contact-area">
+        <div class="container">
+            <div class="row">
+                    <div class="text-center contact-content">
+                        <div class="col-md-3">
+                        <h6>ABV-Indian Institute of Information Technology and Management
+Morena Link Road, Gwalior- 474015 </h6>
+                        </div>
+                        <div class="col-md-3"  style="padding-top: 20px;">
+                        <h6>UTHAAN Cell
+                         Room no. : 201
+                         Block : A</h6>
+                        </div>
+                        <div class="col-md-3">
+                        <h6>uthaan.iiitmg@gmail.com</h6>
+                        <h6>+01 2345 6789 12<span>|</span>+01 2345 6789 12</h6>
+                            </div>
+                        <div class="contact-social col-md-3" style="padding-bottom: 20px;">
+                            <ul>
+                                <li><a class="hover-target" href=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a class="hover-target" href=""><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+<footer>
+        <p>Copyright &copy; 2019  All Rights Reserved.</p>
+</footer>
 </body>
 </html>
