@@ -41,5 +41,9 @@ class User extends Authenticatable
     return $this->hasMany(\App\event::class);
 }
 
+public function show(){
+    return $this->hasMany(\App\show::class);
+}
+
 }
 

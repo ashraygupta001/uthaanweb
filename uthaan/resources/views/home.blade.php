@@ -287,37 +287,46 @@ html {
        
     </section>
         <!-- Shows -->
+      
         <section id="show"  class="section-padding">
             <div style="margin: 40px;">
-            <center> <div class="wow fadeInDown" style="margin-top: 88px;"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900;"> Shows </h2></div></center>
+                <center> 
+                  <div class="wow fadeInDown" style="margin-top: 88px;"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900;"> Shows </h2>
+                  </div>
+                </center>
             </div>
-        <div class="show-bg" style="padding: 40px;">
+            <div class="show-bg" style="padding: 40px;">
                 
-        <div class="row s1" style="margin-top: 50px;">
-             <center><h1> Alfaaz</h1></center>
-            <div  style="padding: 10px 20px 20px 20px ;">
-                       <div class="col-md-6">
-                           <div class="video-container">
-                       <iframe width="560" height="315" src="https://www.youtube.com/embed/1i3IEWY-HNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                       </div>
-                    <div class="col-md-6">
-                        <p>
-                            <h2>
-                        "As long as music survives, poetry will never die." 
-</h2>
-                        </p>
-                        <p>
-                            <h3>
-Uthaan is proud to unveil the trailer of its brand new show ALFAAZ.                                                                            Amidst the pressure of performance, placements, and projects. Its time for the touch of melodious music, heart-rending poetry, and heartwarming songs.
-                                </h3>
-                        </p>
+                    <div class="row s1" style="margin-top: 50px;">
+                         <center>
+                            <h1> {{$show->show_type}}</h1>
+                         </center>
+                         <div  style="padding: 10px 20px 20px 20px ;">
+                                   <div class="col-md-6">
+                                       <div class="video-container">
+                                          {!!$show->link!!}
+                                       </div>
+                                   </div>
+                                   <div class="col-md-6">
+                                      <p>
+                                          <h2>
+                                            {{$show->heading}}
+                                          </h2>
+                                      </p>
+                                      <p>
+                                          <h3>
+                                              {{$show->description}}
+                                          </h3>
+                                      </p>
+                                   </div>
+                        </div>
                     </div>
-    </div>
-                    </div>
- <center> <a href="shows.html" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: 30px;">discover more</a></center>
-</div>
-  </section>
+                    <center> 
+                        <a href="shows.html" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: 30px;">discover more</a>
+                    </center>
+            </div>
+        </section>
+      {{-- @endif --}}
                          <!-- -->
         <section id="gallery" class="section-padding" style="margin-top: 50px;">
             <div style="margin: 40px;">
