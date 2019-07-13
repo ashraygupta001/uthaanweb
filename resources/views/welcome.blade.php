@@ -104,7 +104,8 @@ html {
                         <li><a href="#interview" class="page-scroll"> Interviews </a></li>
                         <li><a href="#gallery"class="page-scroll"> Gallery </a></li>
                          <li><a href="#contact" class="page-scroll"> Contact us </a></li>
-                        <li><a href="/login" class="page-scroll">Login</a></li>
+                        @guest<li><a href="/login" class="page-scroll">Login</a></li>@endguest
+                        @auth<li><a href="/login" class="page-scroll">Logout</a></li>@endauth
 
                         </ul>
                 </div>          

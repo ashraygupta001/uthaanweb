@@ -10,11 +10,21 @@
                 <div class="card-body">
 
 
-                    You are logged in!
+                    You are logged in as Admin!
                 </div>
 
-                <a href="/admin">
             </div>
+            <br><br>
+            <div class="card">
+                <div class="card-header">Options</div>
+            <div class="card-body">
+                <ul>
+            <li><a href="/admin">Go to Admin side</a></li><br>
+            <li><a href="/">Go back to the Website</a></li>
+        </ul>
+    </div>
+</div>
+
         </div>
     </div>
 </div>
