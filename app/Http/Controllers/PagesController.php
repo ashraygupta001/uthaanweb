@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Event;
 use App\Show;
 use App\Interview;
+use App\Article;
 
 class PagesController extends Controller
 {
@@ -13,7 +14,8 @@ class PagesController extends Controller
     	$events=Event::all();
     	$show=Show::latest()->first();
     	$interviews=Interview::orderBy('created_at', 'desc')->get();
-    	return view('home',compact(['events','show','interviews']));
+        $articles=Article::orderBy('created_at', 'desc')->get();
+    	return view('home',compact(['events','show','interviews','articles']));
     } 
 
     public function about(){

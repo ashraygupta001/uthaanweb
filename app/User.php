@@ -49,5 +49,9 @@ class User extends Authenticatable
         return $this->hasMany(\App\interview::class);
     }
 
+    public function article(){
+        return $this->hasMany(\App\article::class);
+    }
+
 }
 
