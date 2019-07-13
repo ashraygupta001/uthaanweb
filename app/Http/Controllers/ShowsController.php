@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Show;
 
 class ShowsController extends Controller
 {
@@ -13,7 +14,8 @@ class ShowsController extends Controller
      */
     public function index()
     {
-        //
+        $shows=Show::orderBy('created_at', 'desc')->get();
+        return view('show',compact(['shows']));
     }
 
     /**
@@ -45,7 +47,10 @@ class ShowsController extends Controller
      */
     public function show($id)
     {
-        //
+        $show=Show::findOrFail($id);
+        $show_type=Show::where('show_type',$show->show_type)->get();
+        $plays=$show_type;
+        return view('player',compact(['show','plays']));
     }
 
     /**

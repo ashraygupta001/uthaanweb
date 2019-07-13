@@ -256,7 +256,7 @@ html {
                         </div>
                     </div>
                     <center> 
-                        <a href="/show" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: 30px;">discover more</a>
+                        <a href="/shows" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: 30px;">discover more</a>
                     </center>
             </div>
         </section>

@@ -14,4 +14,5 @@
 Route::get('/','PagesController@home');
 Route::get('/about','PagesController@about');
 Route::get('/gallery','PagesController@gallery');
-
+Route::get('/shows','ShowsController@index');
+Route::get('/player/{id}','ShowsController@show');
