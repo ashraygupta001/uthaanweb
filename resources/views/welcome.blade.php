@@ -5,25 +5,26 @@
         <link rel="icon" href="1.png">
         <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-          {{ HTML::style('css/bootstrap.min.css'); }} 
-          {{ HTML::style('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'); }} 
-          {{ URL::asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css'); }} 
-          {{HTML::style('css/owl.carousel.css'); }} 
-          {{ HTML::style('css/owl.transitions.css'); }} 
-          {{ URL::asset("https://fonts.googleapis.com/css?family=Lobster&display=swap"); }} 
-          {{ URL::asset("https://fonts.googleapis.com/css?family=Allura&display=swap"); }} 
-          {{ URL::asset('https://fonts.googleapis.com/css?family=Courgette&display=swap'); }} 
-          {{ URL::asset("https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap"); }} 
-          {{ URL::asset("https://fonts.googleapis.com/css?family=Courgette&display=swap"); }} 
-          {{ URL::asset("https://fonts.googleapis.com/css?family=Courgette&display=swap"); }} 
-          {{ HTML::style('css/main.css'); }} 
-          {{ HTML::style('css/normalize.css'); }} 
-          {{ HTML::style('css/main1.css'); }} 
-          {{ HTML::style('css/swiper.min.css'); }} 
-          {{ HTML::style('css/plyr.css'); }} 
-          {{ HTML::style('css/agency.min.css'); }} 
-          {{ HTML::style('css/style.css'); }} 
-
+         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+         <link href="css/owl.carousel.css" rel="stylesheet">
+         <link href="css/owl.transitions.css" rel="stylesheet">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+        
+        <!-- -->
+         <link href="css/main.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/main1.css" />
+         <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+         <link rel="stylesheet" type="text/css" href="css/plyr.css" />
+         <link href="css/agency.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
     <style>
         #HR{
             visibility: hidden;
@@ -103,6 +104,8 @@ html {
                         <li><a href="#interview" class="page-scroll"> Interviews </a></li>
                         <li><a href="#gallery"class="page-scroll"> Gallery </a></li>
                          <li><a href="#contact" class="page-scroll"> Contact us </a></li>
+                        <li><a href="/login" class="page-scroll">Login</a></li>
+
                         </ul>
                 </div>          
          </div>
@@ -174,149 +177,88 @@ html {
         </div>
     </div>
             </div>
-      <center> <a href="about.html" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s">discover more</a></center>
+      <center> <a href="/about" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s">discover more</a></center>
             </div>
         </section>
              <!-- -->
 <!-- articles -->
-    <section id="articles" class="section-padding" style="margin-top: 100px;">
-        <div style="margin: 40px;">
-         <center> <div class="wow fadeInUp hello2" style="margin-top: -50px;"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900; display: inline; margin-top: -100px;">Articles</h2></div></center>
-        </div>
-        <div class="article-bg" style="padding: 40px;">
- <div class="container">
-     
-    <div class="h-600x h-sm-auto">
-      <div class="h-2-3 h-sm-auto" style="overflow: hidden">
-        <div class="pb-5 pr-5 pr-sm-0 float-left float-sm-none w-2-3 w-sm-100 h-100 h-sm-300x">
-          <a class="pos-relative h-100 dplay-block" href="#">
-            <div class="img-bg bg-1 bg-grad-layer-6"></div>
-            <div class="abs-blr color-white p-20 bg-sm-color-7">
-              <h3 class="mb-15 mb-sm-5 font-sm-13"><b>Peter Thiels VC Found Invests Million into Bitcoin, Market Reacts</b></h3>
-              <ul class="list-li-mr-20">
-                <li>by <span class="color-primary"><b>Olivia Capzallo</b></span> Jan 25, 2018</li>
-              </ul>
-            </div><!--abs-blr -->
-          </a><!-- pos-relative -->
-        </div><!-- w-1-3 -->
-        
-        <div class="float-left float-sm-none w-1-3 w-sm-100 h-100 h-sm-600x">
-        
-          <div class="pl-5 pb-5 pl-sm-0 ptb-sm-5 pos-relative h-50">
-            <a class="pos-relative h-100 dplay-block" href="#">
-            
-              <div class="img-bg bg-2 bg-grad-layer-6"></div>
-              
-              <div class="abs-blr color-white p-20 bg-sm-color-7">
-                <h4 class="mb-10 mb-sm-5"><b>Russians Bisiops Condems Cryptocurrecy</b></h4>
-                <ul class="list-li-mr-20">
-                                    <li>by <span class="color-primary"><b>Olivia Capzallo</b></span> Jan 25, 2018</li>
-                </ul>
-              </div><!--abs-blr -->
-            </a><!-- pos-relative -->
-          </div><!-- w-1-3 -->
-          
-          <div class="pl-5 ptb-5 pl-sm-0 pos-relative h-50">
-            <a class="pos-relative h-100 dplay-block" href="#">
-            
-              <div class="img-bg bg-3 bg-grad-layer-6"></div>
-              
-              <div class="abs-blr color-white p-20 bg-sm-color-7">
-                <h4 class="mb-10 mb-sm-5"><b>Bitcoin Adoption by Business in 2017</b></h4>
-                <ul class="list-li-mr-20">
-                  <li>by <span class="color-primary"><b>Olivia Capzallo</b></span> Jan 25, 2018</li>
-                </ul>
-              </div><!--abs-blr -->
-            </a><!-- pos-relative -->
-          </div><!-- w-1-3 -->
-          
-        </div><!-- float-left -->
-
-      </div><!-- h-2-3 -->
-      
-      <div class="h-1-3" style="overflow: hidden;">
-    
-        <div class="pr-5 pr-sm-0 pt-5 float-left float-sm-none pos-relative w-1-3 w-sm-100 h-100 h-sm-300x">
-          <a class="pos-relative h-100 dplay-block" href="#">
-          
-            <div class="img-bg bg-4 bg-grad-layer-6"></div>
-            
-            <div class="abs-blr color-white p-20 bg-sm-color-7">
-              <h4 class="mb-10 mb-sm-5"><b>2017 Market Performance: Crypto vs.Stock</b></h4>
-              <ul class="list-li-mr-20">
-                <li>by <span class="color-primary"><b>Olivia Capzallo</b></span> Jan 25, 2018</li>
-              </ul>
-            </div><!--abs-blr -->
-          </a><!-- pos-relative -->
-        </div><!-- w-1-3 -->
-        
-        <div class="plr-5 plr-sm-0 pt-5 pt-sm-10 float-left float-sm-none pos-relative w-1-3 w-sm-100 h-100 h-sm-300x">
-          <a class="pos-relative h-100 dplay-block" href="#">
-          
-            <div class="img-bg bg-5 bg-grad-layer-6"></div>
-            
-            <div class="abs-blr color-white p-20 bg-sm-color-7">
-              <h4 class="mb-10 mb-sm-5"><b>Culture Stock: Bitcoin a Part of all Walks of life in 2017</b></h4>
-              <ul class="list-li-mr-20">
-                <li>by <span class="color-primary"><b>Olivia Capzallo</b></span> Jan 25, 2018</li>
-              </ul>
-            </div><!--abs-blr -->
-          </a><!-- pos-relative -->
-        </div><!-- w-1-3 -->
-        
-        <div class="pl-5 pl-sm-0 pt-5 pt-sm-10 float-left float-sm-none pos-relative w-1-3 w-sm-100 h-100 h-sm-300x">
-          <a class="pos-relative h-100 dplay-block" href="#">
-          
-            <div class="img-bg bg-6 bg-grad-layer-6"></div>
-            
-            <div class="abs-blr color-white p-20 bg-sm-color-7">
-              <h4 class="mb-10 mb-sm-5"><b>Bitcoin Billionares Hidding in Plain Sight</b></h4>
-              <ul class="list-li-mr-20">
-                <li>by <span class="color-primary"><b>Olivia Capzallo</b></span> Jan 25, 2018</li>
-              </ul>
-            </div><!--abs-blr -->
-          </a><!-- pos-relative -->
-        </div><!-- w-1-3 -->
-        
-      </div><!-- h-2-3 -->
-    </div><!-- h-100vh -->
-  </div><!-- container -->
-            <center> <a href="blogs.html" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: 30px;">discover more</a></center>
+@if(count($articles)>0)
+  <section id="articles" class="section-padding" style="margin-top: 80px;">
+             <div style="margin: 40px;">
+              <center>
+               <div class="wow fadeInUp hello2" style="margin-top: -50px;"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900; display: inline; margin-top: -100px;">Articles</h2>
+               </div>
+              </center>
              </div>
-       
+             <div class="article-bg" style="padding: 40px;">
+                <div class="container" style="margin-top: 100px;">
+                    <div class="row images ">
+                      @foreach($articles as $article)
+                       <a href="/article/{{$article->id}}"id="id07" class="id07">
+                          <div class="col-sm-4">
+                            <div class="thumbnail">
+                                <img src="{{$article->image1}}" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <center>
+                                            <h3>
+                                              {{$article->heading}}
+                                            </h3>
+                                            <p style="font-family: Agency FB">{{$article->writer}}</p>
+                                        </center>
+                                    </div>
+                            </div>
+                          </div>
+                        </a>
+                        @endforeach
+                    </div>
+                </div>
+                <center> 
+                    <a href="/article" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: -50px;">
+                    discover more</a></center>
+        </div>
     </section>
+  @endif  
         <!-- Shows -->
+{{--       @if(count($show)>0)
+ --}}        
         <section id="show"  class="section-padding">
             <div style="margin: 40px;">
-            <center> <div class="wow fadeInDown" style="margin-top: 88px;"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900;"> Shows </h2></div></center>
+                <center> 
+                  <div class="wow fadeInDown" style="margin-top: 88px;">
+                    <h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900;"> 
+                      Shows 
+                    </h2>
+                  </div>
+                </center>
             </div>
-        <div class="show-bg" style="padding: 40px;">
+            <div class="show-bg" style="padding: 40px;">
                 
-        <div class="row s1" style="margin-top: 50px;">
-             <center><h1> Alfaaz</h1></center>
-            <div  style="padding: 10px 20px 20px 20px ;">
-                       <div class="col-md-6">
-                           <div class="video-container">
-                       <iframe width="560" height="315" src="https://www.youtube.com/embed/1i3IEWY-HNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                       </div>
-                    <div class="col-md-6">
-                        <p>
-                            <h2>
-                        "As long as music survives, poetry will never die." 
-</h2>
-                        </p>
-                        <p>
-                            <h3>
-Uthaan is proud to unveil the trailer of its brand new show ALFAAZ.                                                                            Amidst the pressure of performance, placements, and projects. Its time for the touch of melodious music, heart-rending poetry, and heartwarming songs.
-                                </h3>
-                        </p>
+                    <div class="row s1" style="margin-top: 50px;">
+                         <center>
+                            <h1> {{$show->heading}}</h1>
+                         </center>
+                         <div  style="padding: 10px 20px 20px 20px ;">
+                                   <div class="col-md-6">
+                                       <div class="video-container">
+                                          <iframe width="560" height="315" src="{!!$show->link!!}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                       </div>
+                                   </div>
+                                   <div class="col-md-6">
+                                      
+                                      <p>
+                                          <h3>
+                                              {{$show->description}}
+                                          </h3>
+                                      </p>
+                                   </div>
+                        </div>
                     </div>
-    </div>
-                    </div>
- <center> <a href="shows.html" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: 30px;">discover more</a></center>
-</div>
-  </section>
+                    <center> 
+                        <a href="/shows" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: 30px;">discover more</a>
+                    </center>
+            </div>
+        </section>
+      {{-- @endif --}}
                          <!-- -->
         <section id="gallery" class="section-padding" style="margin-top: 50px;">
             <div style="margin: 40px;">
@@ -365,47 +307,31 @@ Uthaan is proud to unveil the trailer of its brand new show ALFAAZ.             
               </section>
 
           </section>
-                     <center> <a href="gallery.html" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-bottom: 10px;">discover more</a></center>
+                     <center> <a href="/gallery" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-bottom: 10px;">discover more</a></center>
                 </div>
             </div>
         </section>
+     @if(count($events)>0)
           <section id="events" class="section-padding">
              <div style="margin: 40px;">
               <center> <div class="wow fadeInDown"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900;"> Events </h2></div></center>
               </div>
               <div class="event-bg" style="padding: 40px;">
-         <section>
+              <section>
                 <div class="container">
                     <div class="row">
                         <div class="main_drag roomy-50">
                             <div class="col-md-12">
                                 <div class="swiper-container">
                                     <div class="swiper-wrapper">
+                                      @foreach($events as $event)
                                         <div class="swiper-slide" style="background-image:url(background-imager/backgrounds-blank-blue-953214.jpg)">
                                           <h3 style="position: absolute; top: 2%; color: wheat;font-family: 'Courgette', cursive; font-size: 40px; font-size-adjust: auto;">
-                                          In The Moment</h3>
-                                            <img src="teamimg/sakshi.jpg" class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
+                                          {{$event->heading}}</h3>
+                                            <img src="{{$event->image}}" class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
+                                            <p>{{$event->description}}</p>>
                                         </div>
-                                        <div class="swiper-slide" style="background-image:url(background-imager/backgrounds-blank-blue-953214.jpg)">
-                                          <h3 style="position: absolute; top: 2%; color: wheat;font-family: 'Courgette', cursive; font-size: 40px; font-size-adjust: auto;">
-                                          Pictunary</h3>
-                                            <img src="teamimg/aditi.JPG " class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
-                                        </div>
-                                        <div class="swiper-slide" style="background-image:url(background-imager/backgrounds-blank-blue-953214.jpg)">
-                                          <h3 style="position: absolute; top: 2%; color: wheat;font-family: 'Courgette', cursive; font-size: 40px; font-size-adjust: auto;">
-                                          Debate</h3>
-                                            <img src="teamimg/ashray.jpg" class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
-                                        </div>
-                                        <div class="swiper-slide" style="background-image:url(background-imager/backgrounds-blank-blue-953214.jpg)">
-                                          <h3 style="position: absolute; top: 2%; color: wheat;font-family: 'Courgette', cursive; font-size: 40px; font-size-adjust: auto;">
-                                          Producto Promotio</h3>
-                                            <img src="teamimg/shivam.jpg" class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
-                                        </div>
-                                        <div class="swiper-slide" style="background-image:url(background-imager/backgrounds-blank-blue-953214.jpg)">
-                                          <h3 style="position: absolute; top: 2%; color: wheat;font-family: 'Courgette', cursive; font-size: 40px; font-size-adjust: auto;">
-                                          In The Moment</h3>
-                                            <img src="teamimg/madhuri.jpg" class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
-                                        </div>
+                                      @endforeach
                                     </div>
                                     <!-- If we need navigation buttons -->
                                     <div class="swiper-button-prev"></div>
@@ -415,63 +341,46 @@ Uthaan is proud to unveil the trailer of its brand new show ALFAAZ.             
                         </div>
                     </div>
                 </div>
-            </section>
+              </section>
               </div>
-        </section>
+          </section>
+      @endif
+      @if(count($interviews)>0)
          <section id="interview" class="section-padding" style="margin-top: 80px;">
              <div style="margin: 40px;">
-              <center> <div class="wow fadeInUp hello2" style="margin-top: -50px;"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900; display: inline; margin-top: -100px;">Interviews</h2></div></center>
+              <center>
+               <div class="wow fadeInUp hello2" style="margin-top: -50px;"><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900; display: inline; margin-top: -100px;">Interviews</h2>
+               </div>
+              </center>
              </div>
-              <div class="interview-bg" style="padding: 40px;">
-         <div class="container" style="margin-top: 100px;">
-            <div class="row images ">
-                <a href="#"id="id07" class="id07"><div class="col-sm-4">
-                    <div class="thumbnail">
-                   <img src="teamimg/aditi.JPG" class="img-responsive img-thumbnail">
-                    <div class="caption">
-                        <center>
-                            <h3>
-                              Interview 1
-                            </h3>
-                            <p style="font-family: Agency FB">hi</p>
-                        </center>
-                </div>
+             <div class="interview-bg" style="padding: 40px;">
+                <div class="container" style="margin-top: 100px;">
+                    <div class="row images ">
+                      @foreach($interviews as $interview)
+                       <a href="/interview/{{$interview->id}}"id="id07" class="id07">
+                          <div class="col-sm-4">
+                            <div class="thumbnail">
+                                <img src="{{$interview->image1}}" class="img-responsive img-thumbnail">
+                                    <div class="caption">
+                                        <center>
+                                            <h3>
+                                              {{$interview->heading}}
+                                            </h3>
+                                            <p style="font-family: Agency FB">{{$interview->reporters}}</p>
+                                        </center>
+                                    </div>
+                            </div>
+                          </div>
+                        </a>
+                        @endforeach
                     </div>
                 </div>
-                </a>
-                <a href="#"id="id08"class="id08"><div class="col-sm-4">
-                    <div class="thumbnail">
-                    <img src="teamimg/shivam.jpg" class="img-responsive img-thumbnail">
-                    <div class="caption">
-                        <center>
-                            <h3>
-                               Interview 2
-                            </h3>
-                            <p style="font-family: Agency FB">h1</p>
-                        </center>
-                    </div>
-                    </div>
-                </div>
-                </a>
-                <a href="#"id="id09"class="id09"><div class="col-sm-4">
-                    <div class="thumbnail">
-                   <img src="teamimg/ashray.jpg" class="img-responsive img-thumbnail">
-                    <div class="caption">
-                        <center>
-                            <h3>
-                               Interview 3
-                            </h3>
-                            <p style="font-family: Agency FB">hi</p>
-                        </center>                     
-                    </div>
-                    </div>
-                </div>
-                </a>
-            </div>
-        </div>
-    <center> <a href="interview.html" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: -50px;">discover more</a></center>
+                <center> 
+                    <a href="/interview" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: -50px;">
+                    discover more</a></center>
         </div>
     </section>
+    @endif
              <section>
                  <div style="margin: 50px;">
               <center> <div class="wow fadeInUp hello2" ><h2 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900; display: inline; ">Contact Us</h2></div></center>
@@ -555,23 +464,7 @@ Morena Link Road, Gwalior- 474015 </h6>
     <!-- -->
      <!-- Scripts -->  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-          {{ HTML::style('js/bootstrap.min.js'); }} 
-          {{ HTML::style('js/owl.carousel.min.js'); }} 
-          {{ HTML::style('js/jquery.easing.min.js'); }} 
-          {{ HTML::style('js/wow.js'); }} 
-          {{ HTML::style('js/main.js'); }} 
-          {{ HTML::style('js/mousescroll.js'); }} 
-          {{ HTML::style('js/smoothscroll.js'); }} 
-          {{ HTML::style('js/jquery.prettyPhoto.js'); }} 
-          {{ HTML::style('js/jquery.isotope.min.js'); }} 
-          {{ HTML::style('js/jquery.inview.min.js'); }} 
-          {{ HTML::style('js/plyr.js'); }} 
-          {{ HTML::style('js/anime.min.js'); }} 
-          {{ HTML::style('js/swiper.min.js'); }} 
-          {{ HTML::style('js/imagesloaded.pkgd.min.js'); }} 
-          {{ HTML::style('js/logic.js'); }} 
-
-   {{--   <script  type="text/javascript" src="js/bootstrap.min.js"></script>
+     <script  type="text/javascript" src="js/bootstrap.min.js"></script>
      <script src="js/owl.carousel.min.js"></script>
   <script  type="text/javascript" src="js/jquery.easing.min.js"></script>
   <script  type="text/javascript" src="js/wow.js"></script>
@@ -586,7 +479,7 @@ Morena Link Road, Gwalior- 474015 </h6>
    <script src="js/anime.min.js"></script>
      <script src="js/swiper.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
-     <script type="text/javascript" src="js/logic.js"></script>  --}}
+     <script type="text/javascript" src="js/logic.js"></script> 
    
     <!-- -->
     <script>

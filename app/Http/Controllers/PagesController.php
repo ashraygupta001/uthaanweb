@@ -7,15 +7,16 @@ use App\Event;
 use App\Show;
 use App\Interview;
 use App\Article;
+use App\User;
 
 class PagesController extends Controller
 {
-    public function home(){
+    public function welcome(){
     	$events=Event::all();
     	$show=Show::latest()->first();
     	$interviews=Interview::orderBy('created_at', 'desc')->get();
         $articles=Article::orderBy('created_at', 'desc')->get();
-    	return view('home',compact(['events','show','interviews','articles']));
+    	return view('welcome',compact(['events','show','interviews','articles']));
     } 
 
     public function about(){
@@ -25,4 +26,5 @@ class PagesController extends Controller
     public function gallery(){
     	return view('gallery');
     } 
+
 }

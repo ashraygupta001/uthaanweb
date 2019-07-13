@@ -10,11 +10,24 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+// Front end side
 
-Route::get('/','PagesController@home');
+Route::get('/','PagesController@welcome');
 Route::get('/about','PagesController@about');
 Route::get('/gallery','PagesController@gallery');
 Route::get('/shows','ShowsController@index');
 Route::get('/player/{id}','ShowsController@show');
 Route::get('/interview','InterviewsController@index');
 Route::get('/interview/{id}','InterviewsController@show');
+Route::get('/article','ArticlesController@index');
+Route::get('/article/{id}','ArticlesController@show');
+
+// Backend side
+Route::get('/login','PagesController@login');
+Route::post('/login','PagesController@check');
+
+
+Auth::routes(['register' => false,'verify' => true]);
+
+
+Route::get('/home', 'HomeController@index')->name('home');
