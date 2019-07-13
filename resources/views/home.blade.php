@@ -233,20 +233,16 @@ html {
                 
                     <div class="row s1" style="margin-top: 50px;">
                          <center>
-                            <h1> {{$show->show_type}}</h1>
+                            <h1> {{$show->heading}}</h1>
                          </center>
                          <div  style="padding: 10px 20px 20px 20px ;">
                                    <div class="col-md-6">
                                        <div class="video-container">
-                                          {!!$show->link!!}
+                                          <iframe width="560" height="315" src="{!!$show->link!!}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                        </div>
                                    </div>
                                    <div class="col-md-6">
-                                      <p>
-                                          <h2>
-                                            {{$show->heading}}
-                                          </h2>
-                                      </p>
+                                      
                                       <p>
                                           <h3>
                                               {{$show->description}}
@@ -359,7 +355,7 @@ html {
                 <div class="container" style="margin-top: 100px;">
                     <div class="row images ">
                       @foreach($interviews as $interview)
-                       <a href="#"id="id07" class="id07">
+                       <a href="/interview/{{$interview->id}}"id="id07" class="id07">
                           <div class="col-sm-4">
                             <div class="thumbnail">
                                 <img src="{{$interview->image1}}" class="img-responsive img-thumbnail">
@@ -378,7 +374,7 @@ html {
                     </div>
                 </div>
                 <center> 
-                    <a href="interview.html" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: -50px;">
+                    <a href="/interview" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: -50px;">
                     discover more</a></center>
         </div>
     </section>
