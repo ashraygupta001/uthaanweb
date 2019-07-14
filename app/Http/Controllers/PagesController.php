@@ -27,4 +27,8 @@ class PagesController extends Controller
     	return view('gallery');
     } 
 
+    public function admin(){
+        return view('admin');
+    }
+
 }

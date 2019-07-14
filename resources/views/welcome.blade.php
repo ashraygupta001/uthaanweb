@@ -357,7 +357,9 @@ html {
              <div class="interview-bg" style="padding: 40px;">
                 <div class="container" style="margin-top: 100px;">
                     <div class="row images ">
+                      <?php $count=0; ?>
                       @foreach($interviews as $interview)
+                        @if($count<3)
                        <a href="/interview/{{$interview->id}}"id="id07" class="id07">
                           <div class="col-sm-4">
                             <div class="thumbnail">
@@ -373,6 +375,9 @@ html {
                             </div>
                           </div>
                         </a>
+                        <?php $count++;?>
+                        @else(break;)
+                        @endif
                         @endforeach
                     </div>
                 </div>

@@ -23,11 +23,11 @@ Route::get('/article','ArticlesController@index');
 Route::get('/article/{id}','ArticlesController@show');
 
 // Backend side
-Route::get('/login','PagesController@login');
-Route::post('/login','PagesController@check');
 
-
+//Auth
 Auth::routes(['register' => false,'verify' => true]);
-
-
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/admin','PagesController@admin');
+Route::get('admin/interview','InterviewsController@create');
+Route::post('admin/interview','InterviewsController@store');
