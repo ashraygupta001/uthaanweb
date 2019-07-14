@@ -3,29 +3,29 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Event;
+use App\Message;
 
-class EventsController extends Controller
+class MessagesController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    // public function index()
-    // {
-    //     //
-    // }
+    public function index()
+    {
+        $messages=Message::all();
+        return view('messages',compact(['messages']));
+    }
 
     /**
-     * event the form for creating a new resource.
+     * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
     public function create()
     {
-        return view('eventsadmin');
-
+        return view('welcome');
     }
 
     /**
@@ -36,25 +36,12 @@ class EventsController extends Controller
      */
     public function store(Request $request)
     {
-        $event= new event;
-            $event->user_id=auth()->id();
-            $event->heading=$request->heading;
-            $event->description=$request->description;
-
-            $event->winners=$request->winners;
-            $event->date=$request->date;
-            if ($request->hasFile('image')) {
-                $image = $request->file('image');
-                $name = time().'.'.$image->getClientOriginalExtension();
-                $destinationPath = public_path('uploads/events');
-                $image->move($destinationPath, $name);
-                $event->image='uploads/events/'.$name;
-                
-                
-        
-            }
+            $message= new message;
+            $message->name=$request->name;
+            $message->message=$request->message;
+            $message->email=$request->email;
   
-            $event->save();
+            $message->save();
             return back();
     }
 
@@ -64,21 +51,21 @@ class EventsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    // public function event($id)
+    // public function show($id)
     // {
     //     //
     // }
 
     /**
-     * event the form for editing the specified resource.
+     * Show the form for editing the specified resource.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
-        //
-    }
+    // public function edit($id)
+    // {
+    //     //
+    // }
 
     /**
      * Update the specified resource in storage.
@@ -87,10 +74,10 @@ class EventsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
-        //
-    }
+    // public function update(Request $request, $id)
+    // {
+    //     //
+    // }
 
     /**
      * Remove the specified resource from storage.

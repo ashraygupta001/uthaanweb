@@ -195,7 +195,9 @@ html {
              <div class="article-bg" style="padding: 40px;">
                 <div class="container" style="margin-top: 100px;">
                     <div class="row images ">
+                      <?php $count=0;?>
                       @foreach($articles as $article)
+                        @if($count<3)
                        <a href="/article/{{$article->id}}"id="id07" class="id07">
                           <div class="col-sm-4">
                             <div class="thumbnail">
@@ -211,6 +213,9 @@ html {
                             </div>
                           </div>
                         </a>
+                        @else(break;)
+                        @endif
+                        <?php $count++; ?>
                         @endforeach
                     </div>
                 </div>
@@ -222,7 +227,9 @@ html {
   @endif  
         <!-- Shows -->
 {{--       @if(count($show)>0)
- --}}        
+ --}}   
+      @if(is_null($show))
+      @else    
         <section id="show"  class="section-padding">
             <div style="margin: 40px;">
                 <center> 
@@ -260,7 +267,7 @@ html {
                     </center>
             </div>
         </section>
-      {{-- @endif --}}
+      @endif
                          <!-- -->
         <section id="gallery" class="section-padding" style="margin-top: 50px;">
             <div style="margin: 40px;">
@@ -401,25 +408,23 @@ html {
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form action="/" id="contactForm" method='POST' novalidate>
+                      @csrf
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control" placeholder="Your Name *" name="name" required data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" class="form-control" placeholder="Your Email *" name="email" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
+                                
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Your Message *" name="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>

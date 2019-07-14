@@ -35,4 +35,10 @@ Route::get('admin/article','ArticlesController@create');
 Route::post('admin/article','ArticlesController@store');
 Route::get('admin/show','ShowsController@create');
 Route::post('admin/show','ShowsController@store');
+Route::get('admin/event','EventsController@create');
+Route::post('admin/event','EventsController@store');
+
+Route::get('admin/messages','MessagesController@index');
+
+Route::post('/','MessagesController@store');
 

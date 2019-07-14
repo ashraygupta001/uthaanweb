@@ -17,6 +17,30 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Uthaan | Shows</title>
+                      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+
+         <link href="css/owl.carousel.css" rel="stylesheet">
+
+         <link href="css/owl.transitions.css" rel="stylesheet">
+
+         <link href="css/main.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+
+        <link rel="stylesheet" type="text/css" href="css/main1.css" />
+
+         <link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+
+         <link rel="stylesheet" type="text/css" href="css/plyr.css" />
+
+         <link href="css/agency.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+
     <style type="text/css">
          ul {
             margin: 0;
@@ -224,6 +248,37 @@ footer img {
     </style>
 </head>
 <body style="background-color: #0f0f0a">
+    <nav class="nav navbar-default navbar-fixed-top">
+     <div class="container">
+     <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+          <span style="background-color: aqua" class="icon-bar"></span>
+          <span style="background-color: aqua" class="icon-bar"></span>
+          <span style="background-color: aqua" class="icon-bar"></span>
+                        </button>
+         <div>
+             <a href="home.html" class="page-scroll"><img src="img/uthaan.png" id="uthaanlogo"></a>
+         </div>
+         </div>
+         <div class="collapse navbar-collapse" id="mynavbar" >
+                    <ul class="nav navbar-nav navbar-right">
+                         <li class="active"><a href="#header">Home</a></li>
+                        <li><a href="#about" class="page-scroll"> About us </a></li>
+                         <li><a href="#events"class="page-scroll"> Events </a></li>
+                        <li><a href="#show"class="page-scroll"> Shows </a> </li>
+                        <li><a href="#articles"class="page-scroll"> Articles </a></li> 
+                        <li><a href="#interview" class="page-scroll"> Interviews </a></li>
+                        <li><a href="#gallery"class="page-scroll"> Gallery </a></li>
+                         <li><a href="#contact" class="page-scroll"> Contact us </a></li>
+                        @guest<li><a href="/login" class="page-scroll">Login</a></li>@endguest
+                        @auth<li><a href="/login" class="page-scroll">Logout</a></li>@endauth
+                        @auth<li><a href="/admin" class="page-scroll">Admin</a></li>@endauth
+
+                        </ul>
+                </div>          
+         </div>
+    </nav>  
 <div class="main-content">
     <section id="photos">
         <a href="/player/{{$shows->first()->id}}" class="letitbe">
@@ -350,5 +405,31 @@ Morena Link Road, Gwalior- 474015 </h6>
 <footer>
         <p>Copyright &copy; 2019  All Rights Reserved.</p>
 </footer>
+   <!-- -->
+     <!-- Scripts -->  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script  type="text/javascript" src="js/bootstrap.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+  <script  type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script  type="text/javascript" src="js/wow.js"></script>
+     <script src="js/main.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/plyr.js"></script>
+   <script src="js/anime.min.js"></script>
+     <script src="js/swiper.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+     <script type="text/javascript" src="js/logic.js"></script> 
+   
+    <!-- -->
+    <script>
+    (function() {
+      new GridSlideshow(document.querySelector('.grid-pages'));
+    })();
+    </script>
 </body>
 </html>

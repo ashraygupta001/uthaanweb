@@ -92,7 +92,6 @@ html {
     							<a href="single-blog.html" class="img" style="background-image: url({{$interview->image1}});"></a>
     							<div class="text pt-2 mt-5">
 			              <h3 class="mb-4"><a href="/interview/{{$interview->id}}">{{$interview->heading}}</a></h3>
-			              <p class="mb-4">{!!$interview->content!!}</p>
 			              <div class="author mb-4 d-flex align-items-center">
 			            		<div class="ml-3 info">
 			            			<span>Written by</span>

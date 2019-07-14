@@ -1,9 +1,9 @@
 @auth
 <html>
 <head>
-    <link rel="stylesheet" href="{{URL::asset('css/adminform.css')}}">
+   <link rel="stylesheet" href="{{URL::asset('css/adminform.css')}}">
     <script>
-			CKEDITOR.replace( 'content' );
+      CKEDITOR.replace( 'content' );
       //fade in-out the page
         $(document).ready(function(){
             $(".fd_pg").click(function(){
@@ -14,7 +14,7 @@
         function myFunction() {
             document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
         }
-	</script>
+  </script>
     <link rel="stylesheet" href="{{URL::asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')}}">
     <script src="{{URL::asset('https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')}}"></script>
     <script src="{{URL::asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')}}"></script>
@@ -163,7 +163,7 @@ ul.topnav li.icon {display: none;}
 </head>
 <body>
 <div class="nav" id="top" style="position:fixed;">
-      <ul class="topnav">
+    <ul class="topnav">
         <div class="left_logo" style=" background-color: transparent"></div>
         <li><a class="fd_pg active" href="/admin/interview" >Interviews</a></li>
         <li><a href="/admin/article">Articles</a></li>
@@ -177,51 +177,39 @@ ul.topnav li.icon {display: none;}
         </li>
     </ul>
 </div>
-
 <br><br><br><br><br>
-<h3 style="text-align: center; font-size: 40px; color: black;">Upload an Article</h3>
+<h3 style="text-align: center; font-size: 40px;color: black">Upload Event</h3>
 <div class="wpcf7" id="wpcf7-f156-p143-o1 formwrap">
-    <form action='/admin/article' method="post" class="wpcf7-form" enctype="multipart/form-data">
-        @csrf
+    <form action="/admin/event" method="post" class="wpcf7-form" enctype="multipart/form-data">
+      @csrf
         <p>
            <span class="wpcf7-form-control-wrap Name">
-             <input type="text" name="heading" value="" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Heading" required>
+             <input type="text" name="heading" value="" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Heading " required>
           </span>
-
-        <h4 style="text-align: left; color: black"><b>Content:</b> </h4>
             <span class="wpcf7-form-control-wrap Message">
-            <textarea class="ckeditor" name="content" cols="10" rows="10" aria-invalid="false" placeholder="Content" required></textarea>
+            <textarea name="description" cols="10" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Description " required></textarea>
           </span>
-          <br><br><br>
+          <br><br>
+            <span class="wpcf7-form-control-wrap Name">
+             <input type="text" name="winners" value="" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Winners" required>
+          </span>
         <span class="wpcf7-form-control-wrap Name">
-             <input type="text" name="writer" value="" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Writer" required>
+           <div style="color: black">Date of Event:</div>
+             <input type="date" name="date" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"
+             style="color: black;" placeholder="Date event was held" required>
           </span>
 
-          
-        <span>
-                <h4 style="text-align: left; color: black">Select Cover Image*</h4>
-                <input type="file" name="image1"  style="font-size: large; background-color: grey" required>
-                <br>
-
-                <h4 style="text-align: left; color: black">Image 2(Not necessary)</h4>
-                <input type="file" name="image2"  style="font-size: large; background-color: grey">
-                <br>
-
-                <h4 style="text-align: left; color: black">Image 3(Not necessary)</h4>
-                <input type="file" name="image3"  style="font-size: large; background-color: grey">
-                <br>
-                
+            <span>
+                <h4 style="text-align: left; color: black">Select Image</h4>
+                <input type="file" name="image"  style="font-size: large; background-color: grey" required>
         </span>
-        <br><br><br><br>
+            <br><br><br><br>
             <input type="submit" value="Upload" class="wpcf7-form-control wpcf7-submit btn" >
         </p>
     </form>
-        </div>
-
 </div>
-<script>
-        
-    </script>
+
+
 </body>
 </html>
 @endauth

@@ -161,7 +161,7 @@ ul.topnav li.icon {display: none;}
       </style>
 
 </head>
-<body>
+<body style="background: coral;">
 <div class="nav" id="top" style="position:fixed;">
       <ul class="topnav">
         <div class="left_logo" style=" background-color: transparent"></div>
@@ -179,49 +179,37 @@ ul.topnav li.icon {display: none;}
 </div>
 
 <br><br><br><br><br>
-<h3 style="text-align: center; font-size: 40px; color: black;">Upload an Article</h3>
-<div class="wpcf7" id="wpcf7-f156-p143-o1 formwrap">
-    <form action='/admin/article' method="post" class="wpcf7-form" enctype="multipart/form-data">
-        @csrf
-        <p>
-           <span class="wpcf7-form-control-wrap Name">
-             <input type="text" name="heading" value="" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Heading" required>
-          </span>
+<center><h1>Messages</h1></center>
+    <div class="container-fluid">
+    	@if(count($messages)>0)
+    	@foreach($messages as $message)
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
 
-        <h4 style="text-align: left; color: black"><b>Content:</b> </h4>
-            <span class="wpcf7-form-control-wrap Message">
-            <textarea class="ckeditor" name="content" cols="10" rows="10" aria-invalid="false" placeholder="Content" required></textarea>
-          </span>
-          <br><br><br>
-        <span class="wpcf7-form-control-wrap Name">
-             <input type="text" name="writer" value="" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Writer" required>
-          </span>
+               <div class="row">
+                    <div class="col-md-8">
+                        <div>
+                            <h5 style="color: black"><b>Name : </b>{{$message->name}}</h5>
 
-          
-        <span>
-                <h4 style="text-align: left; color: black">Select Cover Image*</h4>
-                <input type="file" name="image1"  style="font-size: large; background-color: grey" required>
-                <br>
+                            <h5 style="color: black"><b>Email : </b>{{$message->email}}</h5>
+                            
+                            <h5 style="color: black"><b>Message : </b>{{$message->message}}</h5>
+                            <br>                          
+                        </div>
+                        <br>
+                    </div>
+                    </div>
+                    <hr style="background-color: black">
+               
 
-                <h4 style="text-align: left; color: black">Image 2(Not necessary)</h4>
-                <input type="file" name="image2"  style="font-size: large; background-color: grey">
-                <br>
-
-                <h4 style="text-align: left; color: black">Image 3(Not necessary)</h4>
-                <input type="file" name="image3"  style="font-size: large; background-color: grey">
-                <br>
-                
-        </span>
-        <br><br><br><br>
-            <input type="submit" value="Upload" class="wpcf7-form-control wpcf7-submit btn" >
-        </p>
-    </form>
+            </div>
         </div>
+        @endforeach
+        @endif
 
-</div>
-<script>
-        
-    </script>
+    </div>
 </body>
 </html>
+
 @endauth

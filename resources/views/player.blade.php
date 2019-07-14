@@ -2,6 +2,31 @@
 <html>
 <head>
     <link rel="stylesheet" href="{{ URL::asset('css/player.css') }}">
+                      <link rel="stylesheet" type="text/css" href="{{URL::asset('css/bootstrap.min.css')}}">
+
+        <link rel="stylesheet" href="{{URL::asset('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css')}}">
+
+        <link rel="stylesheet" href="{{URL::asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css')}}" />
+
+         <link href="{{URL::asset('css/owl.carousel.css')}}" rel="stylesheet">
+
+         <link href="{{URL::asset('css/owl.transitions.css')}}" rel="stylesheet">
+
+         <link href="{{URL::asset('css/main.css')}}" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="{{URL::asset('css/normalize.css')}}" />
+
+        <link rel="stylesheet" type="text/css" href="{{URL::asset('css/main1.css')}}" />
+
+         <link rel="stylesheet" type="text/css" href="{{URL::asset('css/swiper.min.css')}}" />
+
+         <link rel="stylesheet" type="text/css" href="{{URL::asset('css/plyr.css')}}" />
+
+         <link href="{{URL::asset('css/agency.min.css')}}" rel="stylesheet">
+
+        <link rel="stylesheet" href="{{URL::asset('css/style.css')}}" type="text/css">
+
+
     <style>
     .contact-area {
     border-bottom: 1px solid #353C46;
@@ -86,11 +111,43 @@ footer img {
 
     </style>
 </head>
-<body>
+<body style="background: black;">
+    <nav class="nav navbar-default navbar-fixed-top">
+     <div class="container">
+     <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+          <span style="background-color: aqua" class="icon-bar"></span>
+          <span style="background-color: aqua" class="icon-bar"></span>
+          <span style="background-color: aqua" class="icon-bar"></span>
+                        </button>
+         <div>
+             <a href="home.html" class="page-scroll"><img src="{{URL::asset('img/uthaan.png')}}" id="uthaanlogo"></a>
+         </div>
+         </div>
+         <div class="collapse navbar-collapse" id="mynavbar" >
+                    <ul class="nav navbar-nav navbar-right">
+                         <li class="active"><a href="#header">Home</a></li>
+                        <li><a href="#about" class="page-scroll"> About us </a></li>
+                         <li><a href="#events"class="page-scroll"> Events </a></li>
+                        <li><a href="#show"class="page-scroll"> Shows </a> </li>
+                        <li><a href="#articles"class="page-scroll"> Articles </a></li> 
+                        <li><a href="#interview" class="page-scroll"> Interviews </a></li>
+                        <li><a href="#gallery"class="page-scroll"> Gallery </a></li>
+                         <li><a href="#contact" class="page-scroll"> Contact us </a></li>
+                        @guest<li><a href="/login" class="page-scroll">Login</a></li>@endguest
+                        @auth<li><a href="/login" class="page-scroll">Logout</a></li>@endauth
+                        @auth<li><a href="/admin" class="page-scroll">Admin</a></li>@endauth
+
+                        </ul>
+                </div>          
+         </div>
+    </nav>  
 <br><br>
 
+
 <main class="site-content">
-    type1 <section class="video-area">
+     <section class="video-area">
         <div class="wrapper">
      <header class="video-header">
                 <h2 class="video-title">{{$show->heading}}</h2>
@@ -341,4 +398,28 @@ footer img {
 
     }();
 </script>
+   <!-- -->
+     <!-- Scripts -->  
+<script src="{{URL::asset('https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')}}"></script>
+{{--  --}}     <script src="{{URL::asset('js/owl.carousel.min.js')}}"></script>
+  <script  type="text/javascript" src="{{URL::asset('js/jquery.easing.min.js')}}"></script>
+  <script  type="text/javascript" src="{{URL::asset('js/wow.js')}}"></script>
+     <script src="{{URL::asset('js/main.js')}}"></script>
+    <script src="{{URL::asset('js/mousescroll.js')}}"></script>
+    <script src="{{URL::asset('js/smoothscroll.js')}}"></script>
+    <script src="{{URL::asset('js/jquery.prettyPhoto.js')}}"></script>
+    <script src="{{URL::asset('js/jquery.isotope.min.js')}}"></script>
+    <script src="{{URL::asset('js/jquery.inview.min.js')}}"></script>
+    <script src="{{URL::asset('js/plyr.js')}}"></script>
+   <script src="{{URL::asset('js/anime.min.js')}}"></script>
+     <script src="{{URL::asset('js/swiper.min.js')}}"></script>
+    <script src="{{URL::asset('js/imagesloaded.pkgd.min.js')}}"></script>
+     <script type="text/javascript" src="{{URL::asset('js/logic.js')}}"></script> 
+   
+    <!-- -->
+    <script>
+    (function() {
+      new GridSlideshow(document.querySelector('.grid-pages'));
+    })();
+    </script>
 </html>

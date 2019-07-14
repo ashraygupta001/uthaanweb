@@ -92,11 +92,10 @@ html {
     							<a href="single-blog.html" class="img" style="background-image: url({{$article->image1}});"></a>
     							<div class="text pt-2 mt-5">
 			              <h3 class="mb-4"><a href="/article/{{$article->id}}">{{$article->heading}}</a></h3>
-			              <p class="mb-4">{!!$article->content!!}</p>
 			              <div class="author mb-4 d-flex align-items-center">
 			            		<div class="ml-3 info">
 			            			<span>Written by</span>
-			            			<h3><a>{{$article->reporters}}</a>, <span>{{$article->created_at->format('F j, Y')}}</span></h3>
+			            			<h3><a>{{$article->reporters}}</a><span>{{$article->created_at->format('F j, Y')}}</span></h3>
 			            		</div>
 			            	</div>
 			              <div class="meta-wrap d-md-flex align-items-center">
