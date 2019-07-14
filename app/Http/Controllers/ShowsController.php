@@ -25,7 +25,8 @@ class ShowsController extends Controller
      */
     public function create()
     {
-        //
+        return view('showsadmin');
+
     }
 
     /**
@@ -36,7 +37,26 @@ class ShowsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $show= new show;
+            $show->user_id=auth()->id();
+            $show->heading=$request->heading;
+            $show->description=$request->description;
+
+            $show->show_type=$request->show_type;
+            $show->link=$request->link;
+            if ($request->hasFile('thumbnail')) {
+                $image = $request->file('thumbnail');
+                $name = time().'.'.$image->getClientOriginalExtension();
+                $destinationPath = public_path('uploads/shows');
+                $image->move($destinationPath, $name);
+                $show->thumbnail='uploads/shows/'.$name;
+                
+                
+        
+            }
+  
+            $show->save();
+            return back();
     }
 
     /**

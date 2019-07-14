@@ -99,7 +99,7 @@ footer img {
             <div class="video-column">
                 <div class="video-player">
                     <iframe  class="video" id="video"
-                            src="{{$show->link}}">
+                            src="https://www.youtube.com/embed/{{$show->link}}">
                     </iframe>
                 </div>
 

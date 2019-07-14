@@ -164,11 +164,11 @@ ul.topnav li.icon {display: none;}
 <div class="nav" id="top" style="position:fixed;">
     <ul class="topnav">
         <div class="left_logo" style=" background-color: transparent"></div>
-        <li><a class="fd_pg active" href="/interviewsadmin" >Interviews</a></li>
-        <li><a href="/articlesadmin">Articles</a></li>
-        <li><a href="/showsadmin">Shows</a></li>
-        <li><a href="/messages">Messages</a></li>
-        <li><a href="/eventsadmin">Events</a></li>
+        <li><a class="fd_pg active" href="admin/interview" >Interviews</a></li>
+        <li><a href="/admin/article">Articles</a></li>
+        <li><a href="/admin/show">Shows</a></li>
+        <li><a href="/admin/messages">Messages</a></li>
+        <li><a href="/admin/event">Events</a></li>
         <li><a href="/">Website</a></li>
         <li><a href="/login">Logout</a></li>
         <li class="icon">

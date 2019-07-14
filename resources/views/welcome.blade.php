@@ -106,6 +106,7 @@ html {
                          <li><a href="#contact" class="page-scroll"> Contact us </a></li>
                         @guest<li><a href="/login" class="page-scroll">Login</a></li>@endguest
                         @auth<li><a href="/login" class="page-scroll">Logout</a></li>@endauth
+                        @auth<li><a href="/admin" class="page-scroll">Admin</a></li>@endauth
 
                         </ul>
                 </div>          
@@ -241,7 +242,7 @@ html {
                          <div  style="padding: 10px 20px 20px 20px ;">
                                    <div class="col-md-6">
                                        <div class="video-container">
-                                          <iframe width="560" height="315" src="{!!$show->link!!}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                          <iframe width="560" height="315" src="https://www.youtube.com/embed/{!!$show->link!!}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                        </div>
                                    </div>
                                    <div class="col-md-6">

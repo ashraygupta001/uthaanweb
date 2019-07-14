@@ -31,3 +31,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin','PagesController@admin');
 Route::get('admin/interview','InterviewsController@create');
 Route::post('admin/interview','InterviewsController@store');
+Route::get('admin/article','ArticlesController@create');
+Route::post('admin/article','ArticlesController@store');
+Route::get('admin/show','ShowsController@create');
+Route::post('admin/show','ShowsController@store');
+
