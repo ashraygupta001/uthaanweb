@@ -1,9 +1,9 @@
 @auth
 <html>
 <head>
-    <link rel="stylesheet" href="{{URL::asset('css/adminform.css')}}">
+   <link rel="stylesheet" href="{{URL::asset('css/adminform.css')}}">
     <script>
-			CKEDITOR.replace( 'content' );
+      CKEDITOR.replace( 'content' );
       //fade in-out the page
         $(document).ready(function(){
             $(".fd_pg").click(function(){
@@ -14,7 +14,7 @@
         function myFunction() {
             document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
         }
-	</script>
+  </script>
     <link rel="stylesheet" href="{{URL::asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')}}">
     <script src="{{URL::asset('https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')}}"></script>
     <script src="{{URL::asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')}}"></script>
@@ -161,9 +161,9 @@ ul.topnav li.icon {display: none;}
       </style>
 
 </head>
-<body style="background: coral;">
+<body>
 <div class="nav" id="top" style="position:fixed;">
-      <ul class="topnav">
+    <ul class="topnav">
         <div class="left_logo" style=" background-color: transparent"></div>
         <li><a class="fd_pg active" href="/admin/interview" >Interviews</a></li>
         <li><a href="/admin/article">Articles</a></li>
@@ -177,42 +177,40 @@ ul.topnav li.icon {display: none;}
         </li>
     </ul>
 </div>
-
 <br><br><br><br><br>
-<center><h1>Messages</h1></center>
-    <div class="container-fluid">
-    	@if(count($messages)>0)
-    	@foreach($messages as $message)
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+<h3 style="text-align: center; font-size: 40px;color: black">Upload Event</h3>
+<div class="wpcf7" id="wpcf7-f156-p143-o1 formwrap">
+    <form action="/admin/eventedit/{{$event->id}}" method="post" class="wpcf7-form" enctype="multipart/form-data">
+      @csrf
+      @method('PATCH')
+        <p>
+           <span class="wpcf7-form-control-wrap Name">
+             <input type="text" name="heading" value="{{$event->heading}}" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Heading " required>
+          </span>
+            <span class="wpcf7-form-control-wrap Message">
+            <textarea name="description" cols="10" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Description " required>{{$event->description}}</textarea>
+          </span>
+          <br><br>
+            <span class="wpcf7-form-control-wrap Name">
+             <input type="text" name="winners" value="{{$event->winners}}" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Winners" required>
+          </span>
+        <span class="wpcf7-form-control-wrap Name">
+           <div style="color: black">Date of Event:</div>
+             <input type="date" name="date" value="{{$event->date}}" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"
+             style="color: black;" placeholder="Date event was held" required>
+          </span>
 
-               <div class="row">
-                    <div class="col-md-8">
-                        <div>
-                            <h5 style="color: black"><b>Name : </b>{{$message->name}}</h5>
+            <span>
+                <h4 style="text-align: left; color: black">Select Image</h4>
+                <input type="file" name="image"  style="font-size: large; background-color: grey">
+        </span>
+            <br><br><br><br>
+            <input type="submit" value="Upload" class="wpcf7-form-control wpcf7-submit btn" >
+        </p>
+    </form>
+</div>
 
-                            <h5 style="color: black"><b>Email : </b>{{$message->email}}</h5>
-                            
-                            <h5 style="color: black"><b>Message : </b>{{$message->message}}</h5>
-                            <br>                          
-                        </div>
 
-                                                @auth<p><a href="/admin/messagedelete/{{$message->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
-
-                        <br>
-                    </div>
-                    </div>
-                    <hr style="background-color: black">
-               
-
-            </div>
-        </div>
-        @endforeach
-        @endif
-
-    </div>
 </body>
 </html>
-
 @endauth

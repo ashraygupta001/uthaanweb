@@ -81,7 +81,9 @@ class ShowsController extends Controller
      */
     public function edit($id)
     {
-        //
+        
+        $show=Show::findOrFail($id);
+        return view('showedit',compact(['show']));
     }
 
     /**
@@ -93,7 +95,26 @@ class ShowsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+            $show=Show::findOrFail($id);
+            $show->update($request->except(['_token','_method']));
+            $show->heading=$request->heading;
+            $show->description=$request->description;
+
+            $show->show_type=$request->show_type;
+            $show->link=$request->link;
+            if ($request->hasFile('thumbnail')) {
+                $image = $request->file('thumbnail');
+                $name = time().'.'.$image->getClientOriginalExtension();
+                $destinationPath = public_path('uploads/shows');
+                $image->move($destinationPath, $name);
+                $show->thumbnail='uploads/shows/'.$name;
+                
+                
+        
+            }
+  
+            $show->save();
+            return back();
     }
 
     /**
@@ -104,6 +125,7 @@ class ShowsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $res=Show::where('id',$id)->delete();
+        return back();
     }
 }

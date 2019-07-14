@@ -87,6 +87,7 @@ class MessagesController extends Controller
      */
     public function destroy($id)
     {
-        //
+         $res=message::where('id',$id)->delete();
+        return back();
     }
 }

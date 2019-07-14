@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="{{URL::asset('css/adminform.css')}}">
     <script>
-			CKEDITOR.replace( 'content' );
+      CKEDITOR.replace( 'content' );
       //fade in-out the page
         $(document).ready(function(){
             $(".fd_pg").click(function(){
@@ -14,7 +14,7 @@
         function myFunction() {
             document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
         }
-	</script>
+  </script>
     <link rel="stylesheet" href="{{URL::asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')}}">
     <script src="{{URL::asset('https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')}}"></script>
     <script src="{{URL::asset('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')}}"></script>
@@ -179,10 +179,10 @@ ul.topnav li.icon {display: none;}
 </div>
 
 <br><br><br><br><br>
-<center><h1>Messages</h1></center>
+<center><h1>Events</h1></center>
     <div class="container-fluid">
-    	@if(count($messages)>0)
-    	@foreach($messages as $message)
+      @if(count($events)>0)
+      @foreach($events as $event)
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
@@ -190,15 +190,21 @@ ul.topnav li.icon {display: none;}
                <div class="row">
                     <div class="col-md-8">
                         <div>
-                            <h5 style="color: black"><b>Name : </b>{{$message->name}}</h5>
+                            <h5 style="color: black"><b>Heading : </b>{{$event->heading}}</h5>
 
-                            <h5 style="color: black"><b>Email : </b>{{$message->email}}</h5>
+                            <h5 style="color: black"><b>Description : </b>{{$event->description}}</h5>
                             
-                            <h5 style="color: black"><b>Message : </b>{{$message->message}}</h5>
+                            <h5 style="color: black"><b>Winners : </b>{{$event->winners}}</h5>
+
+                            <h5 style="color: black"><b>Date : </b>{{$event->date}}</h5>
+
+                            <h5 style="color: black"><b>Image : </b></h5><img src="{{URL::asset("$event->image")}}">
                             <br>                          
                         </div>
 
-                                                @auth<p><a href="/admin/messagedelete/{{$message->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+                         @auth<p><a href="/admin/eventdelete/{{$event->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+                          @auth<p><a href="/admin/eventedit/{{$event->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Edit</a></p>@endauth
+
 
                         <br>
                     </div>

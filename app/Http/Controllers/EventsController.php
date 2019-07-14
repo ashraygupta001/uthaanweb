@@ -12,10 +12,11 @@ class EventsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    // public function index()
-    // {
-    //     //
-    // }
+    public function index()
+    {
+        $events=Event::orderBy('created_at', 'desc')->get();
+        return view('eventindex',compact(['events']));
+    }
 
     /**
      * event the form for creating a new resource.
@@ -77,7 +78,8 @@ class EventsController extends Controller
      */
     public function edit($id)
     {
-        //
+         $event=Event::findOrFail($id);
+        return view('eventedit',compact(['event']));
     }
 
     /**
@@ -89,7 +91,28 @@ class EventsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $event=Event::findOrFail($id);
+        $event->update($request->except(['_token','_method']));
+
+        $event->user_id=auth()->id();
+            $event->heading=$request->heading;
+            $event->description=$request->description;
+
+            $event->winners=$request->winners;
+            $event->date=$request->date;
+            if ($request->hasFile('image')) {
+                $image = $request->file('image');
+                $name = time().'.'.$image->getClientOriginalExtension();
+                $destinationPath = public_path('uploads/events');
+                $image->move($destinationPath, $name);
+                $event->image='uploads/events/'.$name;
+                
+                
+        
+            }
+  
+            $event->save();
+            return back();
     }
 
     /**
@@ -100,6 +123,7 @@ class EventsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $res=Event::where('id',$id)->delete();
+        return back();
     }
 }

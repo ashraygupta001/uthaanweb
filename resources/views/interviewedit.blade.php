@@ -161,9 +161,9 @@ ul.topnav li.icon {display: none;}
       </style>
 
 </head>
-<body style="background: coral;">
+<body>
 <div class="nav" id="top" style="position:fixed;">
-      <ul class="topnav">
+    <ul class="topnav">
         <div class="left_logo" style=" background-color: transparent"></div>
         <li><a class="fd_pg active" href="/admin/interview" >Interviews</a></li>
         <li><a href="/admin/article">Articles</a></li>
@@ -179,40 +179,53 @@ ul.topnav li.icon {display: none;}
 </div>
 
 <br><br><br><br><br>
-<center><h1>Messages</h1></center>
-    <div class="container-fluid">
-    	@if(count($messages)>0)
-    	@foreach($messages as $message)
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
+<h3 style="text-align: center; font-size: 40px; color: black;">Upload an Interview</h3>
+<div class="wpcf7" id="wpcf7-f156-p143-o1 formwrap">
+    <form action='/admin/interviewedit/{{$interview->id}}' method="post" class="wpcf7-form" enctype="multipart/form-data">
+        @csrf
+        @method('PATCH')
+        <p>
+           <span class="wpcf7-form-control-wrap Name">
+             <input type="text" name="heading" value="{{$interview->heading}}" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Heading" required>
+          </span>
 
-               <div class="row">
-                    <div class="col-md-8">
-                        <div>
-                            <h5 style="color: black"><b>Name : </b>{{$message->name}}</h5>
+        <h4 style="text-align: left; color: black"><b>Content:</b> </h4>
+            <span class="wpcf7-form-control-wrap Message">
+            <textarea class="ckeditor" name="content" cols="10" rows="10" aria-invalid="false" placeholder="Content" required>{{$interview->content}}</textarea>
+          </span>
+          <br><br><br>
+        <span class="wpcf7-form-control-wrap Name">
+             <input type="text" name="reporter" value="{{$interview->reporters}}" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Reporter" required>
+          </span>
 
-                            <h5 style="color: black"><b>Email : </b>{{$message->email}}</h5>
-                            
-                            <h5 style="color: black"><b>Message : </b>{{$message->message}}</h5>
-                            <br>                          
-                        </div>
+           <span class="wpcf7-form-control-wrap Name">
+             <input type="text" name="photographer" value="{{$interview->photographer}}" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Photographer" required>
+          </span>
 
-                                                @auth<p><a href="/admin/messagedelete/{{$message->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+        <span>
+                <h4 style="text-align: left; color: black">Select Cover Image*</h4>
+                <input type="file" name="image1"  style="font-size: large; background-color: grey" value="{{$interview->image1}}">
+                <br>
 
-                        <br>
-                    </div>
-                    </div>
-                    <hr style="background-color: black">
-               
+                <h4 style="text-align: left; color: black">Image 2(Not necessary)</h4>
+                <input type="file" name="image2"  style="font-size: large; background-color: grey" value="{{$interview->image2}}">
+                <br>
 
-            </div>
+                <h4 style="text-align: left; color: black">Image 3(Not necessary)</h4>
+                <input type="file" name="image3"  style="font-size: large; background-color: grey" value="{{$interview->image3}}">
+                <br>
+                
+        </span>
+        <br><br><br><br>
+            <input type="submit" value="Upload" class="wpcf7-form-control wpcf7-submit btn" >
+        </p>
+    </form>
         </div>
-        @endforeach
-        @endif
 
-    </div>
+</div>
+<script>
+        
+    </script>
 </body>
 </html>
-
 @endauth

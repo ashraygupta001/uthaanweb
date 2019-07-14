@@ -101,6 +101,10 @@ html {
 			              <div class="meta-wrap d-md-flex align-items-center">
 			              	<div class="half">
 				              	<p><a href="/article/{{$article->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Continue Reading</a></p>
+                        @auth<p><a href="/admin/articleedit/{{$article->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Edit</a></p>@endauth
+                        @auth<p><a href="/admin/articledelete/{{$article->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+
+
 			              	</div>
 			              </div>
 			            </div>

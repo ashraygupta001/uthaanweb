@@ -21,6 +21,7 @@ Route::get('/interview','InterviewsController@index');
 Route::get('/interview/{id}','InterviewsController@show');
 Route::get('/article','ArticlesController@index');
 Route::get('/article/{id}','ArticlesController@show');
+Route::get('/admin/eventlist','EventsController@index');
 
 // Backend side
 
@@ -41,4 +42,24 @@ Route::post('admin/event','EventsController@store');
 Route::get('admin/messages','MessagesController@index');
 
 Route::post('/','MessagesController@store');
+
+Route::get('/admin/interviewedit/{id}','InterviewsController@edit');
+Route::patch('/admin/interviewedit/{id}','InterviewsController@update');
+Route::get('/admin/interviewdelete/{id}','InterviewsController@destroy');
+
+Route::get('/admin/articleedit/{id}','ArticlesController@edit');
+Route::patch('/admin/articleedit/{id}','ArticlesController@update');
+Route::get('/admin/articledelete/{id}','ArticlesController@destroy');
+
+Route::get('/admin/messagedelete/{id}','MessagesController@destroy');
+
+Route::get('/admin/showedit/{id}','ShowsController@edit');
+Route::patch('/admin/showedit/{id}','ShowsController@update');
+Route::get('/admin/showdelete/{id}','ShowsController@destroy');
+
+Route::get('/admin/eventedit/{id}','EventsController@edit');
+Route::patch('/admin/eventedit/{id}','EventsController@update');
+Route::get('/admin/eventdelete/{id}','EventsController@destroy');
+
+
 

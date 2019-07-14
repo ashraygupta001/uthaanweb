@@ -279,6 +279,8 @@ footer img {
                 </div>          
          </div>
     </nav>  
+                @if(count($shows)>0)
+
 <div class="main-content">
     <section id="photos">
         <a href="/player/{{$shows->first()->id}}" class="letitbe">
@@ -288,6 +290,7 @@ footer img {
         </a>
     </section>
 </div>
+        @endif
 
 <div class="container-fluid">
     <div class="row">
@@ -321,6 +324,9 @@ footer img {
                             <br>
                             <p style="color: white; text-align: center">{{$show->description}}</p>
                         </div>
+                         @auth<p><a href="/admin/showdelete/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+                         @auth<p><a href="/admin/showedit/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Edit</a></p>@endauth
+
 
                         </div>
                         <br><br>
@@ -355,7 +361,8 @@ footer img {
                             <br>
                             <p style="color: white; text-align: center">{{$show->description}}</p>
                         </div>
-
+                            @auth<p><a href="/admin/showdelete/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+                         @auth<p><a href="/admin/showedit/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Edit</a></p>@endauth
                         </div>
                         <br><br>
                         @endforeach

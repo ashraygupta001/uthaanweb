@@ -48,7 +48,7 @@ html {
         <div class="item" style="background-image: url(img/bgTop.jpg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
-          <h2 class="top-title">TO Seek</h2>
+          <h2 class="top-title">TO Seek,<br> To Find<br> and Not to Yield</h2>
         </div>
       </div>
             <div class="slider-inner">
@@ -59,7 +59,7 @@ html {
         <div class="item" style="background-image: url(img/bgTop.jpg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
-          <h3 class="title">To Find</h3>
+          <h3 class="title">Bridging gap<br> between<br> Juniors and Seniors</h3>
         </div>
       </div>
             <div class="slider-inner">
@@ -71,7 +71,7 @@ html {
         <div class="item" style="background-image: url(img/bgTop.jpg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
-          <h4 class="sub-title">Not To Yield</h4>
+          <h4 class="sub-title"><br><br>Uthaan IIITM</h4>
         </div>
       </div>
             <div class="slider-inner">
@@ -338,8 +338,8 @@ html {
                                           <h3 style="position: absolute; top: 2%; color: wheat;font-family: 'Courgette', cursive; font-size: 40px; font-size-adjust: auto;">
                                           {{$event->heading}}</h3>
                                             <img src="{{$event->image}}" class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
-                                            <p>{{$event->description}}</p>>
                                         </div>
+                                      
                                       @endforeach
                                     </div>
                                     <!-- If we need navigation buttons -->

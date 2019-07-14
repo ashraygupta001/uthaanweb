@@ -98,7 +98,8 @@ class ArticlesController extends Controller
      */
     public function edit($id)
     {
-        //
+         $article=Article::findOrFail($id);
+        return view('articleedit',compact(['article']));
     }
 
     /**
@@ -110,7 +111,51 @@ class ArticlesController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+            $article=Article::findOrFail($id);
+            $article->update($request->except(['_token','_method']));
+            $article->heading=$request->heading;
+            $article->content=$request->content;
+            $article->writer=$request->writer;
+
+            $this->validate($request, [
+            'image1' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            ]);
+
+            if ($request->hasFile('image1')) {
+                $image = $request->file('image1');
+                $name = time().'.'.$image->getClientOriginalExtension();
+                $destinationPath = public_path('uploads/articles');
+                $image->move($destinationPath, $name);
+                $article->image1='uploads/articles/'.$name;
+                
+                
+        
+            }
+
+            if ($request->hasFile('image2')) {
+                $image = $request->file('image2');
+                $name = time().'.'.$image->getClientOriginalExtension();
+                $destinationPath = public_path('uploads/articles');
+                $image->move($destinationPath, $name);
+                $article->image2='uploads/articles/'.$name;
+                
+                
+        
+            }
+
+            if ($request->hasFile('image3')) {
+                $image = $request->file('image3');
+                $name = time().'.'.$image->getClientOriginalExtension();
+                $destinationPath = public_path('uploads/articles');
+                $image->move($destinationPath, $name);
+                $article->image3='uploads/articles/'.$name;
+                
+                
+        
+            }
+            
+            $article->save();
+            return back();
     }
 
     /**
@@ -121,6 +166,7 @@ class ArticlesController extends Controller
      */
     public function destroy($id)
     {
-        //
+         $res=article::where('id',$id)->delete();
+        return back();
     }
 }

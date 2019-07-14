@@ -31,7 +31,7 @@ class InterviewsController extends Controller
      */
     public function store(Request $request)
     {
-        $interview= new Interview;
+            $interview= new Interview;
             $interview->user_id=auth()->id();
             $interview->heading=$request->heading;
             $interview->content=$request->content;
@@ -99,7 +99,8 @@ class InterviewsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $interview=Interview::findOrFail($id);
+        return view('interviewedit',compact(['interview']));
     }
 
     /**
@@ -111,7 +112,56 @@ class InterviewsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        // dd($request);
+        $interview=Interview::findOrFail($id);
+        $interview->update($request->except(['_token','_method']));
+
+        $interview->user_id=auth()->id();
+        $interview->heading=$request->heading;
+        $interview->content=$request->content;
+        $interview->reporters=$request->reporter;
+        $interview->photographer=$request->photographer;
+
+            $this->validate($request, [
+            'image1' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            ]);
+
+            if ($request->hasFile('image1')) {
+                $image = $request->file('image1');
+                $name = time().'.'.$image->getClientOriginalExtension();
+                $destinationPath = public_path('uploads/interviews');
+                $image->move($destinationPath, $name);
+                $interview->image1='uploads/interviews/'.$name;
+                
+                
+        
+            }
+
+            if ($request->hasFile('image2')) {
+                $image = $request->file('image2');
+                $name = time().'.'.$image->getClientOriginalExtension();
+                $destinationPath = public_path('uploads/interviews');
+                $image->move($destinationPath, $name);
+                $interview->image2='uploads/interviews/'.$name;
+                
+                
+        
+            }
+
+            if ($request->hasFile('image3')) {
+                $image = $request->file('image3');
+                $name = time().'.'.$image->getClientOriginalExtension();
+                $destinationPath = public_path('uploads/interviews');
+                $image->move($destinationPath, $name);
+                $interview->image3='uploads/interviews/'.$name;
+                
+                
+        
+            }
+            
+            $interview->save();
+            return back();
+
     }
 
     /**
@@ -122,6 +172,8 @@ class InterviewsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $res=Interview::where('id',$id)->delete();
+        return back();
+
     }
 }

@@ -11,6 +11,8 @@
 		<a href="admin/show"><li>Shows Section</li></a>
 		<a href="admin/event"><li>Events section</li></a>
 		<a href="admin/messages"><li>Check Messages</li></a>
+		<a href="admin/eventlist"><li>Check Events</li></a>
+
 		<a href="/"><li>Go to the Website</li></a>
 	</ul>
 </body>
