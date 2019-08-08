@@ -194,7 +194,7 @@ html {
              </div>
              <div class="article-bg" style="padding: 40px;">
                 <div class="container" style="margin-top: 100px;">
-                    <div class="row images ">
+                    <div class="row images interview-image ">
                       <?php $count=0;?>
                       @foreach($articles as $article)
                         @if($count<3)
@@ -204,10 +204,10 @@ html {
                                 <img src="{{$article->image1}}" class="img-responsive img-thumbnail">
                                     <div class="caption">
                                         <center>
-                                            <h3>
+                                            <h3 class="interview-head">
                                               {{$article->heading}}
                                             </h3>
-                                            <p style="font-family: Agency FB">{{$article->writer}}</p>
+                                            <p style="font-family: Agency FB" class="interview-content">{{$article->writer}}</p>
                                         </center>
                                     </div>
                             </div>
@@ -364,20 +364,20 @@ html {
              </div>
              <div class="interview-bg" style="padding: 40px;">
                 <div class="container" style="margin-top: 100px;">
-                    <div class="row images ">
+                    <div class="row images interview-image ">
                       <?php $count=0; ?>
                       @foreach($interviews as $interview)
                         @if($count<3)
                        <a href="/interview/{{$interview->id}}"id="id07" class="id07">
                           <div class="col-sm-4">
                             <div class="thumbnail">
-                                <img src="{{$interview->image1}}" class="img-responsive img-thumbnail">
+                                <img src="{{$interview->image1}}" class="img-responsive img-thumbnail" style="height: 250px;">
                                     <div class="caption">
                                         <center>
-                                            <h3>
+                                            <h3 class="interview-head">
                                               {{$interview->heading}}
                                             </h3>
-                                            <p style="font-family: Agency FB">{{$interview->reporters}}</p>
+                                            <p style="font-family: Agency FB;" class="interview-content">{{$interview->reporters}}</p>
                                         </center>
                                     </div>
                             </div>
@@ -390,7 +390,7 @@ html {
                     </div>
                 </div>
                 <center> 
-                    <a href="/interview" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: -50px;">
+                    <a href="/interview" class="wow fadeInUp smoothScroll btn btn-default section-btn" data-wow-delay="1s" style="margin-top: -20px;">
                     discover more</a></center>
         </div>
     </section>

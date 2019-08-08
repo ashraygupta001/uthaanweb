@@ -2056,4 +2056,16 @@ footer img {
     width: 44px;
 }
 
-
+@media only screen and (min-width: 1000px) {
+  .interview-image {
+    height: 400px;
+  }
+  .interview-head{
+	height: 50px;
+	font-size: 20px;
+}
+.interview-content{
+	height: 40px;
+	margin-top: 20px;
+}
+}
