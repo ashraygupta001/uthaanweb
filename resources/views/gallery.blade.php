@@ -45,20 +45,22 @@ html {
 					<span style="background-color: aqua" class="icon-bar"></span>
 					<span style="background-color: aqua" class="icon-bar"></span>
                         </button>
-         <div>
-             <a href="home.html" class="page-scroll"><img src="img/uthaan.png" id="uthaanlogo"></a>
+      <div>
+             <a href="/" class="page-scroll"><img src="{{ URL::asset('img/uthaan.png') }}" id="uthaanlogo"></a>
          </div>
          </div>
          <div class="collapse navbar-collapse" id="mynavbar" >
                     <ul class="nav navbar-nav navbar-right">
-                         <li><a href="/">Home</a></li>
+                         <li class="active"><a href="/">Home</a></li>
                         <li><a href="/about" class="page-scroll"> About us </a></li>
-                         <li><a href="#events"class="page-scroll"> Events </a></li>
-                        <li><a href="#"id="shows"class="shows"> Shows </a> </li>
-                        <li><a href="#articles"class="page-scroll"> Articles </a></li> 
-                        <li><a href="#interview" class="page-scroll"> Interviews </a></li>
-                        <li class="active"><a href="#gallery"class="page-scroll"> Gallery </a></li>
+                         <li><a href="/#events"class="page-scroll"> Events </a></li>
+                        <li><a href="/shows"class="page-scroll"> Shows </a> </li>
+                        <li><a href="/article"class="page-scroll"> Articles </a></li> 
+                        <li><a href="/interview" class="page-scroll"> Interviews </a></li>
+                        <li><a href="/gallery" class="page-scroll"> Gallery </a></li>
                          <li><a href="/#contact" id="contactus" class="contactus"> Contact us </a></li>
+                         @guest<li><a href="/login" class="page-scroll">Login</a></li>@endguest
+                         @auth<li><a href="/login" class="page-scroll">Logout</a>@endauth
                         </ul>
                 </div>          
          </div>

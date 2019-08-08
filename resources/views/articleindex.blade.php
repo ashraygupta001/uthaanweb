@@ -51,31 +51,33 @@ html {
 					<span style="background-color: aqua" class="icon-bar"></span>
 					<span style="background-color: aqua" class="icon-bar"></span>
                         </button>
-         <div>
-             <a href="home.html" class="page-scroll"><img src="img/uthaan.png" id="uthaanlogo"></a>
+          <div>
+             <a href="/" class="page-scroll"><img src="{{ URL::asset('img/uthaan.png') }}" id="uthaanlogo"></a>
          </div>
          </div>
          <div class="collapse navbar-collapse" id="mynavbar" >
                     <ul class="nav navbar-nav navbar-right">
-                         <li class="active"><a href="#header">Home</a></li>
-                        <li><a href="#about" class="page-scroll"> About us </a></li>
-                         <li><a href="#events"class="page-scroll"> Events </a></li>
-                        <li><a href="#show"class="page-scroll"> Shows </a> </li>
-                        <li><a href="#articles"class="page-scroll"> Articles </a></li> 
-                        <li><a href="#interview" class="page-scroll"> Interview </a></li>
-                        <li><a href="#gallery"class="page-scroll"> Gallery </a></li>
-                         <li><a href="#" id="contactus" class="contactus"> Contact us </a></li>
+                         <li class="active"><a href="/">Home</a></li>
+                        <li><a href="/about" class="page-scroll"> About us </a></li>
+                         <li><a href="/#events"class="page-scroll"> Events </a></li>
+                        <li><a href="/shows"class="page-scroll"> Shows </a> </li>
+                        <li><a href="/article"class="page-scroll"> Articles </a></li> 
+                        <li><a href="/interview" class="page-scroll"> Interviews </a></li>
+                        <li><a href="/gallery" class="page-scroll"> Gallery </a></li>
+                         <li><a href="/#contact" id="contactus" class="contactus"> Contact us </a></li>
+                         @guest<li><a href="/login" class="page-scroll">Login</a></li>@endguest
+                         @auth<li><a href="/login" class="page-scroll">Logout</a>@endauth
                         </ul>
                 </div>          
          </div>
     </nav>  
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/portfolio/05.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-9 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
             <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Articles</span></p>
-            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Post with right sidebar</h1>
+            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Articles</h1>
           </div>
         </div>
       </div>

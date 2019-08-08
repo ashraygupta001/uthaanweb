@@ -257,24 +257,22 @@ footer img {
           <span style="background-color: aqua" class="icon-bar"></span>
           <span style="background-color: aqua" class="icon-bar"></span>
                         </button>
-         <div>
-             <a href="home.html" class="page-scroll"><img src="img/uthaan.png" id="uthaanlogo"></a>
+          <div>
+             <a href="/" class="page-scroll"><img src="{{ URL::asset('img/uthaan.png') }}" id="uthaanlogo"></a>
          </div>
          </div>
          <div class="collapse navbar-collapse" id="mynavbar" >
                     <ul class="nav navbar-nav navbar-right">
-                         <li class="active"><a href="#header">Home</a></li>
-                        <li><a href="#about" class="page-scroll"> About us </a></li>
-                         <li><a href="#events"class="page-scroll"> Events </a></li>
-                        <li><a href="#show"class="page-scroll"> Shows </a> </li>
-                        <li><a href="#articles"class="page-scroll"> Articles </a></li> 
-                        <li><a href="#interview" class="page-scroll"> Interviews </a></li>
-                        <li><a href="#gallery"class="page-scroll"> Gallery </a></li>
-                         <li><a href="#contact" class="page-scroll"> Contact us </a></li>
-                        @guest<li><a href="/login" class="page-scroll">Login</a></li>@endguest
-                        @auth<li><a href="/login" class="page-scroll">Logout</a></li>@endauth
-                        @auth<li><a href="/admin" class="page-scroll">Admin</a></li>@endauth
-
+                         <li class="active"><a href="/">Home</a></li>
+                        <li><a href="/about" class="page-scroll"> About us </a></li>
+                         <li><a href="/#events"class="page-scroll"> Events </a></li>
+                        <li><a href="/shows"class="page-scroll"> Shows </a> </li>
+                        <li><a href="/article"class="page-scroll"> Articles </a></li> 
+                        <li><a href="/interview" class="page-scroll"> Interviews </a></li>
+                        <li><a href="/gallery" class="page-scroll"> Gallery </a></li>
+                         <li><a href="/#contact" id="contactus" class="contactus"> Contact us </a></li>
+                         @guest<li><a href="/login" class="page-scroll">Login</a></li>@endguest
+                         @auth<li><a href="/login" class="page-scroll">Logout</a>@endauth
                         </ul>
                 </div>          
          </div>
@@ -299,10 +297,18 @@ footer img {
         <div class="col-md-10">
             <br><br>
             <ul class="nav nav-pills" >
-                <li class="active" ><a data-toggle="pill" href="#bmg1">Be My Guest S1</a></li>
+                <li class="active" ><a data-toggle="pill" href="#bmg1">Be My Guest S1 &nbsp;</a></li>
 
 
-                <li><a data-toggle="pill" href="#bd">Big Debate</a></li>
+                <li><a data-toggle="pill" href="#bd">Big Debate &nbsp;</a></li>
+
+
+                <li><a data-toggle="pill" href="#hp">HYP &nbsp;</a></li>
+
+                 <li><a data-toggle="pill" href="#oth">Others &nbsp;</a></li>
+
+
+
             </ul>
             <div class="tab-content">
                 <div id="bmg1" class="tab-pane fade in active">
@@ -372,6 +378,75 @@ footer img {
                     
 
                     @endif
+                    <!------------------------>
+
+                     <div class="tab-content">
+                <div id="hp" class="tab-pane fade in active">
+                    <br><br>
+                    @if(count($shows->where('show_type','3'))>0)
+                    <!-------------------------->
+                        @foreach($shows->where('show_type','3') as $show)
+                        <div class="row">
+
+
+                        <div class="col-sm-3 col-md-4 col-lg-3" style="margin-left: 5%">
+                            <a href='/player/{{$show->id}}' style="cursor: pointer">
+                                <img src="{{$show->thumbnail}}" style="width: 90%; height: auto">
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-5 col-lg-7">
+                            <a href='/player/{{$show->id}}' style="text-decoration: none"><h3 style="color: white; text-align: center; text-decoration: none; cursor: pointer">{{$show->heading}}</h3></a>
+                            <br>
+                            <p style="color: white; text-align: center">{{$show->description}}</p>
+                        </div>
+                         @auth<p><a href="/admin/showdelete/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+                         @auth<p><a href="/admin/showedit/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Edit</a></p>@endauth
+
+
+                        </div>
+                        <br><br>
+                        @endforeach
+                    
+                    @endif
+                   
+                    <br><br>
+                   
+
+                    <!------------------------>
+                     <div class="tab-content">
+                <div id="oth" class="tab-pane fade in active">
+                    <br><br>
+                    @if(count($shows->where('show_type','4'))>0)
+                    <!-------------------------->
+                        @foreach($shows->where('show_type','4') as $show)
+                        <div class="row">
+
+
+                        <div class="col-sm-3 col-md-4 col-lg-3" style="margin-left: 5%">
+                            <a href='/player/{{$show->id}}' style="cursor: pointer">
+                                <img src="{{$show->thumbnail}}" style="width: 90%; height: auto">
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-5 col-lg-7">
+                            <a href='/player/{{$show->id}}' style="text-decoration: none"><h3 style="color: white; text-align: center; text-decoration: none; cursor: pointer">{{$show->heading}}</h3></a>
+                            <br>
+                            <p style="color: white; text-align: center">{{$show->description}}</p>
+                        </div>
+                         @auth<p><a href="/admin/showdelete/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+                         @auth<p><a href="/admin/showedit/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Edit</a></p>@endauth
+
+
+                        </div>
+                        <br><br>
+                        @endforeach
+                    
+                    @endif
+                   
+                    <br><br>
+                   
+
                     <!------------------------>
 
                 </div>
