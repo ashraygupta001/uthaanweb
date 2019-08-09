@@ -131,7 +131,7 @@ class InterviewsController extends Controller
                 $name = time().'.'.$image->getClientOriginalExtension();
                 $destinationPath = public_path('uploads/interviews');
                 $image->move($destinationPath, $name);
-                $interview->image1='uploads/interviews/'.$name;
+                $interview->image1='public/uploads/interviews/'.$name;
                 
                 
         
@@ -142,7 +142,7 @@ class InterviewsController extends Controller
                 $name = time().'.'.$image->getClientOriginalExtension();
                 $destinationPath = public_path('uploads/interviews');
                 $image->move($destinationPath, $name);
-                $interview->image2='uploads/interviews/'.$name;
+                $interview->image2='public/uploads/interviews/'.$name;
                 
                 
         
@@ -153,7 +153,7 @@ class InterviewsController extends Controller
                 $name = time().'.'.$image->getClientOriginalExtension();
                 $destinationPath = public_path('uploads/interviews');
                 $image->move($destinationPath, $name);
-                $interview->image3='uploads/interviews/'.$name;
+                $interview->image3='public/uploads/interviews/'.$name;
                 
                 
         
