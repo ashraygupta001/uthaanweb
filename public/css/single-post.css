@@ -636,11 +636,29 @@ footer {
 }
 
 footer p {
-    padding: 40px 0;
+    padding-top: 40px;
     text-align: center;
 }
-
+footer h4 {
+	padding: 10px 20px 3px 0px;
+	display: inline-block;
+	font-size: 15px;
+}
+footer h4 a {
+	color: #838791;
+}
+footer h4 a:hover{
+	color: #d8d8d8;
+	text-decoration: none;
+}
+footer h4 a:visited{
+	color: #838791;
+	text-decoration: none;
+}
 footer img {
     width: 44px;
+}
+.developer{
+	text-align: center;
 }
 

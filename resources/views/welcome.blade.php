@@ -455,8 +455,8 @@ Morena Link Road, Gwalior- 474015 </h6>
                          Block : A</h6>
                         </div>
                         <div class="col-md-3">
-                        <h6>uthaan.iiitmg@gmail.com</h6>
-                        <h6>+91 8989738932<span>|</span>+01 2345 6789 12</h6>
+                        <h6>contact@uthaan.org</h6>
+                        <h6>+91 8989738932<span>|</span>+91 8317057596</h6>
                             </div>
                         <div class="contact-social col-md-3" style="padding-bottom: 20px;">
                             <ul>
