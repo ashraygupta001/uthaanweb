@@ -246,6 +246,11 @@ footer img {
 
 
     </style>
+    <style>
+        #HR{
+            visibility: hidden;
+        }
+        </style>
 </head>
 <body style="background-color: #0f0f0a">
     <nav class="nav navbar-default navbar-fixed-top">

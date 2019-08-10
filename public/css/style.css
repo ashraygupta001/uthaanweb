@@ -263,6 +263,23 @@
 .hello2{
 		 margin-top:80px;
 	} 
+.team1{
+	width: 390px;
+}
+@media only screen and (max-width: 600px) {
+	.team1 {
+	  width: 250px; 
+	}
+	.team h4{
+		font-size: 15px;
+	}
+	.team h5{
+		font-size: 10px;
+	}
+	.team p{
+		font-size: 10px;
+	}
+      }
 /*---------------------------------------
   Buttons               
 -----------------------------------------*/
@@ -2036,7 +2053,10 @@ height: 100%;
 .contact-content img {
     max-width: 210px;
 }
-
+.contbtn:hover{
+	color: #000;
+	background-color: #FAB702;
+}
 footer {
     background: #1A1E25;
     color: #868c96;
@@ -2047,9 +2067,28 @@ footer {
     overflow: hidden;
 }
 
-footer p {
-    padding: 40px 0;
-    text-align: center;
+footer h4 {
+	padding: 10px 20px 3px 0px;
+	display: inline-block;
+	font-size: 15px;
+}
+footer h4 a {
+	color: #838791;
+}
+footer h4 a:hover{
+	color: #d8d8d8;
+	text-decoration: none;
+}
+footer h4 a:visited{
+	color: #838791;
+	text-decoration: none;
+}
+footer p{
+	text-align: center;
+	padding-top: 10px;
+}
+.developer{
+	text-align: center;
 }
 
 footer img {

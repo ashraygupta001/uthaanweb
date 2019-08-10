@@ -31,7 +31,7 @@
         }
         </style>
         <style type="text/css">
-html {
+html,body {
         overflow-x:hidden ;
 }
 </style>
@@ -45,7 +45,7 @@ html {
   <section id="main-slider">
     <div class="owl-carousel">
 
-        <div class="item" style="background-image: url(img/bgTop.jpg);">
+        <div class="item" style="background-image: url(img/adminblock.jpg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
           <h2 class="top-title">TO Seek,<br> To Find<br> and Not to Yield</h2>
@@ -56,7 +56,7 @@ html {
             </div>
         </div>
 
-        <div class="item" style="background-image: url(img/bgTop.jpg);">
+        <div class="item" style="background-image: url(img/431.jpg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
           <h3 class="title">Bridging gap<br> between<br> Juniors and Seniors</h3>
@@ -68,7 +68,7 @@ html {
         </div>
 
 
-        <div class="item" style="background-image: url(img/bgTop.jpg);">
+        <div class="item" style="background-image: url(img/banner.jpg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
           <h4 class="sub-title"><br><br>Uthaan IIITM</h4>
@@ -161,7 +161,7 @@ html {
         <section>
 <div class="container hello">
       <div class="row team">
-        <div class="col-md-4 b1 wow bounceInLeft slow " style="box-shadow:2px 2px 2px 2px #8a795d; width: 390px;">
+        <div class="col-md-4 b1 wow bounceInLeft slow team1 " style="box-shadow:2px 2px 2px 2px #8a795d;">
             <img class="img-responsive img-circle" src="img/dir.png">
             <h4 style="font-family: 'Libre Baskerville', serif;">Prof. S. G. Desmukh</h4>
             <h5>Director ABV-IIITM</h5>
@@ -170,7 +170,7 @@ html {
         </div>
       
 
-        <div class="col-md-4  wow bounceInRight slow" style="box-shadow:2px 2px 2px 2px #8a795d; width: 390px;">
+        <div class="col-md-4  wow bounceInRight slow team1" style="box-shadow:2px 2px 2px 2px #8a795d;">
             <img class="img-responsive img-rounded" src="img/rsahu.png">
             <h4 style="font-family: 'Libre Baskerville', serif;">Prof. Rajendra Sahu  </h4>
             <h5>Faculty Co-ordinator</h5>
@@ -431,7 +431,7 @@ html {
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" class="btn btn-xl contbtn">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -451,18 +451,18 @@ Morena Link Road, Gwalior- 474015 </h6>
                         </div>
                         <div class="col-md-3"  style="padding-top: 20px;">
                         <h6>UTHAAN Cell
-                         Room no. : 201
+                         Room no. : 211
                          Block : A</h6>
                         </div>
                         <div class="col-md-3">
                         <h6>uthaan.iiitmg@gmail.com</h6>
-                        <h6>+01 2345 6789 12<span>|</span>+01 2345 6789 12</h6>
+                        <h6>+91 8989738932<span>|</span>+01 2345 6789 12</h6>
                             </div>
                         <div class="contact-social col-md-3" style="padding-bottom: 20px;">
                             <ul>
-                                <li><a class="hover-target" href=""><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a class="hover-target" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a class="hover-target" href=""><i class="fab fa-youtube"></i></a></li>
+                                <li><a class="hover-target" href="https://www.facebook.com/uthaaniiitmg/" target = "_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="hover-target" href="https://www.instagram.com/uthaaniiitm/" target = "_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="hover-target" href="https://www.youtube.com/channel/UCcNvKCjKaxqnPX09IXcCKIg " target = "_blank"><i class="fab fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -470,7 +470,12 @@ Morena Link Road, Gwalior- 474015 </h6>
         </div>
     </section>
 <footer>
-        <p>Copyright &copy; 2019  All Rights Reserved.</p>
+  <p>Developed and Maintained by-</p>
+  <div class = "developer">
+        <h4><a href = "https://www.linkedin.com/in/ashray-gupta-2509b988/" target = "_blank">Ashray Gupta</a></h4>
+        <h4><a href = "https://www.linkedin.com/in/aditi-singh-15230b16b/" target = "_blank">Aditi Singh</a></h4>
+        <h4><a href = "https://www.linkedin.com/in/shivam-agrawal-a4a414181/" target = "_blank">Shivam Agarwal</a></h4>
+  </div>
 </footer>
         </section>
     <!-- -->

@@ -21,13 +21,14 @@
         <!-- -->
          <link href="css/main.css" rel="stylesheet">
         <link rel="stylesheet" href="css/about.css" type="text/css">
+
     <style>
         #HR{
             visibility: hidden;
         }
         </style>
         <style type="text/css">
-html {
+html,body {
         overflow-x: hidden;
 }
 </style>
@@ -87,7 +88,6 @@ html {
        <center> <h1 style="font-family: 'Allura', cursive; font-size:70px; font-weight: 900; margin-top: 40px;">Founder's word</h1></center>
         
         <ul id="messages">
-
 		<!-- 1 -->
 		<li>
 			<div class="infos">
@@ -695,6 +695,22 @@ html {
                 </div>
             </div>
         </div>
+        <div class="slide">  
+            <div class="our-team">
+                <div class="pic">
+                    <img src="teamimg/siddhart sir.jpg">
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/profile.php?id=100015770732109" class="fab fa-facebook"></a></li>
+                        <li><a href="#" class="fab fa-google-plus"></a></li>
+                        <li><a href="https://www.instagram.com/__siddharth__jain__/" class="fab fa-instagram"></a></li>
+                        <li><a href="https://www.linkedin.com/in/siddharth-jain-0144a4153/" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">Siddhart Jain</h3>
+                </div>
+            </div>
+        </div>
           <div class="slide">  
             <div class="our-team">
                 <div class="pic">
@@ -996,7 +1012,7 @@ Morena Link Road, Gwalior- 474015 </h6>
                         </div>
                         <div class="col-md-3"  style="padding-top: 20px;">
                         <h6>UTHAAN Cell
-                         Room no. : 201
+                         Room no. : 211
                          Block : A</h6>
                         </div>
                         <div class="col-md-3">
