@@ -129,18 +129,18 @@ Morena Link Road, Gwalior- 474015 </h6>
                         </div>
                         <div class="col-md-3"  style="padding-top: 20px;">
                         <h6>UTHAAN Cell
-                         Room no. : 201
+                         Room no. : 211
                          Block : A</h6>
                         </div>
                         <div class="col-md-3">
-                        <h6>uthaan.iiitmg@gmail.com</h6>
-                        <h6>+01 2345 6789 12<span>|</span>+01 2345 6789 12</h6>
+                        <h6>contact@uthaan.org</h6>
+                        <h6>+91 8989738932<span>|</span>+91 8317057596</h6>
                             </div>
                         <div class="contact-social col-md-3" style="padding-bottom: 20px;">
                             <ul>
-                                <li><a class="hover-target" href=""><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a class="hover-target" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a class="hover-target" href=""><i class="fab fa-youtube"></i></a></li>
+                            <li><a class="hover-target" href="https://www.facebook.com/uthaaniiitmg/" target = "_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="hover-target" href="https://www.instagram.com/uthaaniiitm/" target = "_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="hover-target" href="https://www.youtube.com/channel/UCcNvKCjKaxqnPX09IXcCKIg " target = "_blank"><i class="fab fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -148,7 +148,12 @@ Morena Link Road, Gwalior- 474015 </h6>
         </div>
     </section>
 <footer>
-        <p>Copyright &copy; 2019  All Rights Reserved.</p>
+<p>Developed and Maintained by-</p>
+  <div class = "developer">
+        <h4><a href = "https://www.linkedin.com/in/ashray-gupta-2509b988/" target = "_blank">Ashray Gupta</a></h4>
+        <h4><a href = "https://www.linkedin.com/in/aditi-singh-15230b16b/" target = "_blank">Aditi Singh</a></h4>
+        <h4><a href = "https://www.linkedin.com/in/shivam-agrawal-a4a414181/" target = "_blank">Shivam Agarwal</a></h4>
+  </div>
 </footer>
      <script src="blog-js/jquery.min.js"></script>
   <script src="blog-js/jquery-migrate-3.0.1.min.js"></script>
