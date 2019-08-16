@@ -310,7 +310,16 @@ footer img {
 
                 <li><a data-toggle="pill" href="#hp">HYP &nbsp;</a></li>
 
+                 <li><a data-toggle="pill" href="#rtd">Round Table Discussion &nbsp;</a></li>
+
+                 <li><a data-toggle="pill" href="#alf">Alfaaz &nbsp;</a></li>
+
+                <li><a data-toggle="pill" href="#fre">Fresher's interview &nbsp;</a></li>
+
                  <li><a data-toggle="pill" href="#oth">Others &nbsp;</a></li>
+
+
+
 
 
 
@@ -383,15 +392,19 @@ footer img {
                     
 
                     @endif
+
+                    <br><br>
+                </div>
                     <!------------------------>
 
-                     <div class="tab-content">
-                <div id="hp" class="tab-pane fade in active">
+                    <div id="hp" class="tab-pane fade">
+
                     <br><br>
+
                     @if(count($shows->where('show_type','3'))>0)
                     <!-------------------------->
-                        @foreach($shows->where('show_type','3') as $show)
-                        <div class="row">
+                    @foreach($shows->where('show_type','3') as $show)
+                    <div class="row">
 
 
                         <div class="col-sm-3 col-md-4 col-lg-3" style="margin-left: 5%">
@@ -405,27 +418,30 @@ footer img {
                             <br>
                             <p style="color: white; text-align: center">{{$show->description}}</p>
                         </div>
-                         @auth<p><a href="/admin/showdelete/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+                            @auth<p><a href="/admin/showdelete/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
                          @auth<p><a href="/admin/showedit/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Edit</a></p>@endauth
-
-
                         </div>
                         <br><br>
                         @endforeach
+
+                   
                     
+                    
+
                     @endif
-                   
+
                     <br><br>
-                   
+                </div>
 
                     <!------------------------>
-                     <div class="tab-content">
-                <div id="oth" class="tab-pane fade in active">
+                    <div id="rtd" class="tab-pane fade">
+
                     <br><br>
+
                     @if(count($shows->where('show_type','4'))>0)
                     <!-------------------------->
-                        @foreach($shows->where('show_type','4') as $show)
-                        <div class="row">
+                    @foreach($shows->where('show_type','4') as $show)
+                    <div class="row">
 
 
                         <div class="col-sm-3 col-md-4 col-lg-3" style="margin-left: 5%">
@@ -439,23 +455,127 @@ footer img {
                             <br>
                             <p style="color: white; text-align: center">{{$show->description}}</p>
                         </div>
-                         @auth<p><a href="/admin/showdelete/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+                            @auth<p><a href="/admin/showdelete/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
                          @auth<p><a href="/admin/showedit/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Edit</a></p>@endauth
-
-
                         </div>
                         <br><br>
                         @endforeach
+
+                   
                     
+                    
+
                     @endif
-                   
+
                     <br><br>
-                   
-
-                    <!------------------------>
-
                 </div>
-            </div>
+
+                <div id="alf" class="tab-pane fade">
+
+                    <br><br>
+
+                    @if(count($shows->where('show_type','5'))>0)
+                    <!-------------------------->
+                    @foreach($shows->where('show_type','5') as $show)
+                    <div class="row">
+
+
+                        <div class="col-sm-3 col-md-4 col-lg-3" style="margin-left: 5%">
+                            <a href='/player/{{$show->id}}' style="cursor: pointer">
+                                <img src="{{$show->thumbnail}}" style="width: 90%; height: auto">
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-5 col-lg-7">
+                            <a href='/player/{{$show->id}}' style="text-decoration: none"><h3 style="color: white; text-align: center; text-decoration: none; cursor: pointer">{{$show->heading}}</h3></a>
+                            <br>
+                            <p style="color: white; text-align: center">{{$show->description}}</p>
+                        </div>
+                            @auth<p><a href="/admin/showdelete/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+                         @auth<p><a href="/admin/showedit/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Edit</a></p>@endauth
+                        </div>
+                        <br><br>
+                        @endforeach
+
+                   
+                    
+                    
+
+                    @endif
+
+                    <br><br>
+                </div>
+
+                <div id="fre" class="tab-pane fade">
+
+                    <br><br>
+
+                    @if(count($shows->where('show_type','6'))>0)
+                    <!-------------------------->
+                    @foreach($shows->where('show_type','6') as $show)
+                    <div class="row">
+
+
+                        <div class="col-sm-3 col-md-4 col-lg-3" style="margin-left: 5%">
+                            <a href='/player/{{$show->id}}' style="cursor: pointer">
+                                <img src="{{$show->thumbnail}}" style="width: 90%; height: auto">
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-5 col-lg-7">
+                            <a href='/player/{{$show->id}}' style="text-decoration: none"><h3 style="color: white; text-align: center; text-decoration: none; cursor: pointer">{{$show->heading}}</h3></a>
+                            <br>
+                            <p style="color: white; text-align: center">{{$show->description}}</p>
+                        </div>
+                            @auth<p><a href="/admin/showdelete/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+                         @auth<p><a href="/admin/showedit/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Edit</a></p>@endauth
+                        </div>
+                        <br><br>
+                        @endforeach
+
+                   
+                    
+                    
+
+                    @endif
+
+                    <br><br>
+                </div>
+                <div id="oth" class="tab-pane fade">
+
+                    <br><br>
+
+                    @if(count($shows->where('show_type','7'))>0)
+                    <!-------------------------->
+                    @foreach($shows->where('show_type','7') as $show)
+                    <div class="row">
+
+
+                        <div class="col-sm-3 col-md-4 col-lg-3" style="margin-left: 5%">
+                            <a href='/player/{{$show->id}}' style="cursor: pointer">
+                                <img src="{{$show->thumbnail}}" style="width: 90%; height: auto">
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6 col-md-5 col-lg-7">
+                            <a href='/player/{{$show->id}}' style="text-decoration: none"><h3 style="color: white; text-align: center; text-decoration: none; cursor: pointer">{{$show->heading}}</h3></a>
+                            <br>
+                            <p style="color: white; text-align: center">{{$show->description}}</p>
+                        </div>
+                            @auth<p><a href="/admin/showdelete/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Delete</a></p>@endauth
+                         @auth<p><a href="/admin/showedit/{{$show->id}}" class="btn btn-primary p-3 px-xl-4 py-xl-3">Edit</a></p>@endauth
+                        </div>
+                        <br><br>
+                        @endforeach
+
+                   
+                    
+                    
+
+                    @endif
+
+                    <br><br>
+                </div>
         </div>
     </div>
 

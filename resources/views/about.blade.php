@@ -148,7 +148,6 @@ html,body {
                     <img src="teamimg/amandeepsir1.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/asr.jackson.9" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/the.real.sardar/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/amandeepsingh13/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -166,7 +165,6 @@ html,body {
                     <img src="teamimg/arpansir2.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/arpan.jain.1405" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/aj.prime/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/arpan-jain-947640126/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -182,8 +180,6 @@ html,body {
                     <img src="teamimg/akshaysir.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/akshaytheboss" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/akshayiiitm/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -215,7 +211,6 @@ html,body {
                     <img src="teamimg/angelmaam.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/angelsuryavanshi11" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/angelsuryavanshi/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/angelsuryavanshi/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -234,7 +229,6 @@ html,body {
                     <img src="teamimg/vaibhavsir.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/vaibhav.khandelwal.7777" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/iam.vk7/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/vaibhavk77/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -251,7 +245,6 @@ html,body {
                     <img src="teamimg/prajwalguptasir.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/PrajvalGupta" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/prajvalgupta/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/prajvalgupta/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -285,7 +278,6 @@ html,body {
                     <img src="teamimg/hardiksir.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/hardik.khandelwal.167" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/khandelwal.hardik/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/hardik-khandelwal/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -304,8 +296,6 @@ html,body {
                     <img src="teamimg/salonimaam.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/saloni.jain.94801" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/saloni-jain-0101/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -321,8 +311,6 @@ html,body {
                     <img src="teamimg/prakharsir.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/prakhar.srivastava.50746" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/prakhar-srivastava-1a7113135/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -339,8 +327,6 @@ html,body {
                     <img src="teamimg/mahimamaam.png">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/profile.php?id=100001066532065" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/mahima-gupta1997/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -357,7 +343,6 @@ html,body {
                     <img src="teamimg/ramansir.png">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/raman.prabhakar.946?ref=br_rs" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/raman.prabhakar77/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/raman-prabhakar-709447126/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -374,7 +359,6 @@ html,body {
                     <img src="teamimg/shubhamsir.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/smartlink27" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/shubham_link/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/shubham-maurya-57115bba/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -391,8 +375,6 @@ html,body {
                     <img src="teamimg/gauravsir.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/itsmegauravagarwal" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/gaurav-agarwal-398058109/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -408,8 +390,6 @@ html,body {
                     <img src="teamimg/sharadsir.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/sharad.krishna.510" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/sharad-mishra-/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -425,8 +405,6 @@ html,body {
                     <img src="teamimg/deepaksir.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/profile.php?id=100003788808946" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="linkedin.com/in/1327deepak/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -442,7 +420,6 @@ html,body {
                     <img src="teamimg/hiteshsir.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/call.me.Hits" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/this_is_hits_/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/confused1108/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -459,8 +436,6 @@ html,body {
                     <img src="teamimg/vishakhamaam.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/vishakha.gupta.188478" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/vishakha-gupta-10/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -476,8 +451,6 @@ html,body {
                     <img src="teamimg/ritikamaam.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/ritika.agarwal.121398" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/ritika-agarwal-b2856912b/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -493,7 +466,6 @@ html,body {
                     <img src="teamimg/ayushimaam.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/ayushi.rastogi.311" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/ayu.2406/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/ayushi-rastogi-06778b160/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -510,7 +482,6 @@ html,body {
                     <img src="teamimg/suryasir.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/surya.p.singh.351" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/pratap_is_here/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/isurya2312/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -526,14 +497,12 @@ html,body {
                 <div class="pic">
                     <img src="teamimg/apoorvamaam.jpeg">
                     <ul class="social">
-                        <li><a href="#" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
-                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                        <li><a href="https://www.facebook.com/apurva.srivastava.1998" class="fab fa-facebook"></a></li>
+                        <li><a href="https://www.linkedin.com/in/apurva-srivastava-555747138/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
                 <div class="team-content">
-                    <h3 class="title">APOORVA SRIVASTAVA</h3>
+                    <h3 class="title">APURVA SRIVASTAVA</h3>
                 </div>
             </div>
         </div>
@@ -543,7 +512,6 @@ html,body {
                     <img src="teamimg/dakshsir.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/daksh.berry.5" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/im.dby/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/daksh-berry-9b738b187/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -558,9 +526,7 @@ html,body {
                 <div class="pic">
                     <img src="teamimg/riyamaam.jpg">
                     <ul class="social">
-                        <li><a href="https://www.facebook.com/KWL.riya?ref=br_rs"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="https://www.instagram.com/kwl.riya/" class="fab fa-instagram"></a></li>
+                        <li><a href="https://www.facebook.com/KWL.riya?ref=br_rs"></a></li>                        <li><a href="https://www.instagram.com/kwl.riya/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/riya-khandelwal-4b3595132/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -574,10 +540,7 @@ html,body {
                 <div class="pic">
                     <img src="teamimg/rishabhsir.jpg">
                     <ul class="social">
-                        <li><a href="https://www.facebook.com/rishabh.patel.16100" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
-                        <li><a href="https://www.linkedin.com/in/rishabh-patel-591643140/" class="fab fa-linkedin"></a></li>
+                        <li><a href="https://www.facebook.com/rishabh.patel.16100" class="fab fa-facebook"></a></li>                        <li><a href="https://www.linkedin.com/in/rishabh-patel-591643140/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
                 <div class="team-content">
@@ -601,10 +564,7 @@ html,body {
                 <div class="pic">
                     <img src="teamimg/nishantsir1.jpeg">
                     <ul class="social">
-                        <li><a href="https://www.facebook.com/nishantsinghtomar" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
-                        <li><a href="https://www.linkedin.com/in/nishant-tomar-230582153/" class="fab fa-linkedin"></a></li>
+                        <li><a href="https://www.facebook.com/nishantsinghtomar" class="fab fa-facebook"></a></li>                        <li><a href="https://www.linkedin.com/in/nishant-tomar-230582153/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
                 <div class="team-content">
@@ -619,10 +579,7 @@ html,body {
                 <div class="pic">
                     <img src="teamimg/prajwalsir.jpg">
                     <ul class="social">
-                        <li><a href="https://www.facebook.com/prajwal.singh.338" class="fab fa-instagram" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
-                        <li><a href="https://www.linkedin.com/in/prajwal-singh-146b8415b/" class="fab fa-linkedin"></a></li>
+                        <li><a href="https://www.facebook.com/prajwal.singh.338" class="fab fa-instagram" class="fab fa-facebook"></a></li>                        <li><a href="https://www.linkedin.com/in/prajwal-singh-146b8415b/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
                 <div class="team-content">
@@ -635,10 +592,7 @@ html,body {
                 <div class="pic">
                     <img src="teamimg/manvimaam.jpg">
                     <ul class="social">
-                        <li><a href="https://www.facebook.com/profile.php?id=100018911976586" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
-                        <li><a href="https://www.linkedin.com/in/manvi-gupta-a75585153/" class="fab fa-linkedin"></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100018911976586" class="fab fa-facebook"></a></li>                        <li><a href="https://www.linkedin.com/in/manvi-gupta-a75585153/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
                 <div class="team-content">
@@ -653,7 +607,6 @@ html,body {
                     <img src="teamimg/amansir.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/amanmishra.dx" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/mishra_dx007/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/aman-mishra-67a4a5153/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -669,7 +622,6 @@ html,body {
                     <img src="teamimg/nishidhamaam.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/nishidha.sri" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/nishidha_sri/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/nishidha-sri-35949793/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -685,9 +637,6 @@ html,body {
                     <img src="teamimg/varunsir.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/varunv153" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
-                        <li><a href="#" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
                 <div class="team-content">
@@ -701,7 +650,6 @@ html,body {
                     <img src="teamimg/siddhart sir.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/profile.php?id=100015770732109" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/__siddharth__jain__/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/siddharth-jain-0144a4153/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -717,9 +665,7 @@ html,body {
                     <img src="teamimg/sakshammaam.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/suman.arjani" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/sumanarjani/" class="fab fa-instagram"></a></li>
-                        <li><a href="#" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
                 <div class="team-content">
@@ -732,14 +678,11 @@ html,body {
                 <div class="pic">
                     <img src="teamimg/sawatsir.jpg">
                     <ul class="social">
-                        <li><a href="#" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
-                        <li><a href="#" class="fab fa-linkedin"></a></li>
+                        <li><a href="https://www.facebook.com/kumar.shashwat.186" class="fab fa-facebook"></a></li>
                     </ul>
                 </div>
                 <div class="team-content">
-                    <h3 class="title">KUMAR SASWAT</h3>
+                    <h3 class="title">KUMAR SHASHWAT</h3>
                 </div>
             </div>
         </div>
@@ -749,7 +692,6 @@ html,body {
                     <img src="teamimg/ujwalsir.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/ujjwal.sharma.1806" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/sh.ujju/" class="fab fa-instagram"></a></li>
                         <li><a href="linkedin.com/in/ujjwal-sharma-b1066414b/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -765,8 +707,6 @@ html,body {
                     <img src="teamimg/priyanshsir.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/mr.priyanshgaharana" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/priyansh-gaharana-4454a1148/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -781,7 +721,6 @@ html,body {
                     <img src="teamimg/smitamaam.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/smitasrishti?ref=br_rs" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/smitagupta517/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/smita-gupta-a1922714b/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -797,9 +736,6 @@ html,body {
                     <img src="teamimg/akashgoel.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/adg2512" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
-                        <li><a href="#" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
                 <div class="team-content">
@@ -819,7 +755,6 @@ html,body {
                     <img src="teamimg/shivam.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/shivam.agarwal.56" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/the_innocent_gamin/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/shivam-agrawal-a4a414181/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -833,11 +768,9 @@ html,body {
       <div class="slide">  
             <div class="our-team">
                 <div class="pic">
-                    <img src="teamimg/aditi.JPG">
+                    <img src="teamimg/aditi.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/profile.php?id=100028005993257" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/aditi-singh-15230b16b/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -853,7 +786,6 @@ html,body {
                     <img src="teamimg/ashray.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/ashray.gupta.568" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/ashray_gupta_/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/ashray-g-2509b988/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -870,7 +802,6 @@ html,body {
                     <img src="teamimg/sakshi.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/doingharlemshake" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/sakshiiii_07/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/sakshi-rai-145b56186/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -887,7 +818,6 @@ html,body {
                     <img src="teamimg/bipin.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/bipin.pathak.1656" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/_bp14/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/bipin-pathak-00ab39169/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -904,7 +834,6 @@ html,body {
                     <img src="teamimg/madhuri.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/rsmadhuri2000" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/madhuri__raparthi/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/raparthi-madhuri-01645616b/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -921,7 +850,6 @@ html,body {
                     <img src="teamimg/himanshu.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/himanshu.ruhela.vf" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/countawesome/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/himanshu-ruhela-vf13/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -937,9 +865,7 @@ html,body {
                 <div class="pic">
                     <img src="teamimg/sayantan.jpg">
                     <ul class="social">
-                        <li><a href="https://www.facebook.com/sayantan.banerjee.7393" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="https://www.instagram.com/sayantanbanerjee1710/" class="fab fa-instagram"></a></li>
+                        <li><a href="https://www.facebook.com/sayantan.banerjee.7393" class="fab fa-facebook"></a></li>                        <li><a href="https://www.instagram.com/sayantanbanerjee1710/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/sayantan-banerjee-19040b175/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -955,7 +881,6 @@ html,body {
                     <img src="teamimg/rishavdhyani.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/rishab.dhyani" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
                         <li><a href="https://www.instagram.com/_r_d_19/" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/rishabh-dhyani-918743173/" class="fab fa-linkedin"></a></li>
                     </ul>
@@ -972,8 +897,6 @@ html,body {
                     <img src="teamimg/piyush.jpg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/profile.php?id=100009735668141&ref=br_rs" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/piyush-chetwani-5346a516a/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>
@@ -989,8 +912,6 @@ html,body {
                     <img src="teamimg/rachit.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/rachit.garg.792" class="fab fa-facebook"></a></li>
-                        <li><a href="#" class="fab fa-google-plus"></a></li>
-                        <li><a href="#" class="fab fa-instagram"></a></li>
                         <li><a href="https://www.linkedin.com/in/rachit-garg-89a2ba16b/" class="fab fa-linkedin"></a></li>
                     </ul>
                 </div>

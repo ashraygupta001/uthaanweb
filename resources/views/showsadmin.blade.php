@@ -195,8 +195,8 @@ ul.topnav li.icon {display: none;}
           </span>
         <h4 style="text-align: left; color: black">Show IDs:-
           <ul>
-            <li>BMG S1 -> 1</li><li>Big Debate -> 2</li><li>HYP -> 3</li><li>Others -> 4
-            </li></ul></h4>
+            <li>BMG S1 -> 1</li><li>Big Debate -> 2</li><li>HYP -> 3</li><li>Round Table Discussion -> 4</li><li>Alfaaz -> 5</li><li>Fresher's Interview -> 6</li><li>Others -> 7</li>
+            </ul></h4>
         <span class="wpcf7-form-control-wrap Name">
              <input type="text" name="link" value="" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Video's youtube ID " required>
           </span>
