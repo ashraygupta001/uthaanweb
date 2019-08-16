@@ -194,14 +194,14 @@ html,body {
              </div>
              <div class="article-bg" style="padding: 40px;">
                 <div class="container" style="margin-top: 100px;">
-                    <div class="row images article-image">
+                    <div class="row images">
                       <?php $count=0;?>
                       @foreach($articles as $article)
                         @if($count<3)
                        <a href="/article/{{$article->id}}"id="id07" class="id07">
                           <div class="col-sm-4">
                             <div class="thumbnail">
-                                <img src="{{$article->image1}}" class="img-responsive img-thumbnail">
+                                <img src="{{$article->image1}}" class="img-responsive img-thumbnail" style = "height: 300px; width: 100%; ">
                                     <div class="caption">
                                         <center>
                                             <h3 class="article-head">
