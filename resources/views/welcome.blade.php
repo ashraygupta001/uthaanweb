@@ -194,7 +194,7 @@ html,body {
              </div>
              <div class="article-bg" style="padding: 40px;">
                 <div class="container" style="margin-top: 100px;">
-                    <div class="row images interview-image ">
+                    <div class="row images article-image">
                       <?php $count=0;?>
                       @foreach($articles as $article)
                         @if($count<3)
@@ -204,10 +204,10 @@ html,body {
                                 <img src="{{$article->image1}}" class="img-responsive img-thumbnail">
                                     <div class="caption">
                                         <center>
-                                            <h3 class="interview-head">
+                                            <h3 class="article-head">
                                               {{$article->heading}}
                                             </h3>
-                                            <p style="font-family: Agency FB" class="interview-content">{{$article->writer}}</p>
+                                            <p style="font-family: Agency FB" class="article-content">{{$article->writer}}</p>
                                         </center>
                                     </div>
                             </div>

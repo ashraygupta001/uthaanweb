@@ -248,6 +248,11 @@
   -o-border-radius: 50%;
   border-radius: 50%;
   width: 100%; }
+@media only screen and (max-width: 600px) {
+  .foundermsg{
+    display: none;
+  }
+}
 .contact-area {
     border-bottom: 1px solid #353C46;
     padding: 70px 0 70px 0;
@@ -552,6 +557,17 @@ footer img {
 }
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
+}
+@media only screen and (max-width: 600px){
+  .our-team .title{
+    font-size: 15px;
+  }
+  .our-team .post{
+    font-size: 12px;
+  }
+  .our-team .pic{
+    height: 130px;
+  }
 }
  h2{
   text-align:center;

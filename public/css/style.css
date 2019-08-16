@@ -2108,3 +2108,16 @@ footer img {
 	margin-top: 20px;
 }
 }
+@media only screen and (min-width: 900px) {
+  .article-image {
+	  height: 400px;
+	}
+  .article-head{
+	  height: 50px;
+	  font-size: 20px;
+  }
+  .article-content{
+	  height: 40px;
+	  margin-top: 20px;
+  }
+  }
