@@ -91,7 +91,7 @@ html,body {
           <span style="background-color: aqua" class="icon-bar"></span>
                         </button>
          <div>
-             <a href="home.html" class="page-scroll"><img src="img/uthaan.png" id="uthaanlogo"></a>
+             <a href="/" class="page-scroll"><img src="img/uthaan.png" id="uthaanlogo"></a>
          </div>
          </div>
          <div class="collapse navbar-collapse" id="mynavbar" >
@@ -338,6 +338,15 @@ html,body {
                                           <h3 style="position: absolute; top: 2%; color: wheat;font-family: 'Courgette', cursive; font-size: 40px; font-size-adjust: auto;">
                                           {{$event->heading}}</h3>
                                             <img src="{{$event->image}}" class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
+                                            <h4 class= "event-description ">
+                                          {{$event->description}}</h4>
+                                          <h3 style="position: absolute; top: 67%">Winners</h3>
+                                          <h4 class= "event-winner">
+                                            {{$event->winners}}
+                                          </h4>
+                                          <h4 class= "event-date">
+                                            {{$event->date}}
+                                          </h4>
                                         </div>
                                       
                                       @endforeach

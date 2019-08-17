@@ -2121,3 +2121,29 @@ footer img {
 	  margin-top: 20px;
   }
   }
+.event-description{
+	position: absolute;
+	top: 60%;
+	color: black;
+	font-family: 'Courgette', cursive;
+	font-size: 13px;
+}
+.event-winner{
+	position: absolute;
+	top: 75%;
+	color: black;
+	font-family: 'Courgette', cursive;
+	font-size: 13px;
+}
+.event-date{
+	position: absolute;
+	top: 80%;
+	color: black;
+	font-family: 'Courgette', cursive;
+	font-size: 13px;
+}
+@media only screen and (max-width: 600px) {
+	.event-description{
+		font-size: 10px;
+	}
+}
