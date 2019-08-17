@@ -59,7 +59,7 @@ html,body {
         <div class="item" style="background-image: url(img/431.jpg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
-          <h3 class="title">Bridging gap<br> between<br> Juniors and Seniors</h3>
+          <h3 class="title" style="background-color:black;opacity: 0.5;">Bridging gap<br> between<br> Juniors and Seniors</h3>
         </div>
       </div>
             <div class="slider-inner">
