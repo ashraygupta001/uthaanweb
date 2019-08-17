@@ -757,7 +757,7 @@ html,body {
        <div class="slide">  
             <div class="our-team">
                 <div class="pic">
-                    <img src="teamimg/shivam.jpg">
+                    <img src="teamimg/shivam.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/shivam.agarwal.56" target = "_blank" class="fab fa-facebook"></a></li>
                         <li><a href="https://www.instagram.com/the_innocent_gamin/" target = "_blank" class="fab fa-instagram"></a></li>
@@ -767,28 +767,16 @@ html,body {
                 <div class="team-content">
                     <h3 class="title">SHIVAM AGRAWAL</h3>
                     <span class="post">SHOWS HEAD</span>
+                    <span class="post">WEB ADMIN</span>
+
                 </div>
             </div>
         </div>
+     
       <div class="slide">  
             <div class="our-team">
                 <div class="pic">
-                    <img src="teamimg/aditi.jpeg">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/profile.php?id=100028005993257" target = "_blank" class="fab fa-facebook"></a></li>
-                        <li><a href="https://www.linkedin.com/in/aditi-singh-15230b16b/" target = "_blank" class="fab fa-linkedin"></a></li>
-                    </ul>
-                </div>
-                <div class="team-content">
-                    <h3 class="title">ADITI SINGH</h3>
-                    <span class="post">EMT</span>
-                </div>
-            </div>
-        </div>
-      <div class="slide">  
-            <div class="our-team">
-                <div class="pic">
-                    <img src="teamimg/ashray.jpg">
+                    <img src="teamimg/ashray.jpeg">
                     <ul class="social">
                         <li><a href="https://www.facebook.com/ashray.gupta.568" target = "_blank" class="fab fa-facebook"></a></li>
                         <li><a href="https://www.instagram.com/ashray_gupta_/" target = "_blank" class="fab fa-instagram"></a></li>
@@ -797,10 +785,15 @@ html,body {
                 </div>
                 <div class="team-content">
                     <h3 class="title">ASHRAY GUPTA</h3>
-                    <span class="post">TECHNICAL/PHOTOGRAPHY HEAD</span>
+                    <span class="post">TECHNICAL HEAD</span>
+                    <span class="post">PHOTOGRAPHY HEAD</span>
+                    <span class="post">WEB ADMIN</span>
+
                 </div>
             </div>
         </div>
+
+
         <div class="slide">  
             <div class="our-team">
                 <div class="pic">
@@ -817,6 +810,25 @@ html,body {
                 </div>
             </div>
         </div>
+
+         <div class="slide">  
+            <div class="our-team">
+                <div class="pic">
+                    <img src="teamimg/aditi.jpeg">
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/profile.php?id=100028005993257" target = "_blank" class="fab fa-facebook"></a></li>
+                        <li><a href="https://www.linkedin.com/in/aditi-singh-15230b16b/" target = "_blank" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">ADITI SINGH</h3>
+                    <span class="post">EMT</span>
+                    <span class="post">WEB ADMIN</span>
+
+                </div>
+            </div>
+        </div>
+
         <div class="slide">  
             <div class="our-team">
                 <div class="pic">
