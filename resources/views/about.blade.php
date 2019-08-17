@@ -810,7 +810,22 @@ html,body {
                 </div>
             </div>
         </div>
-
+        <div class="slide">  
+            <div class="our-team">
+                <div class="pic">
+                    <img src="teamimg/bipin.jpg">
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/bipin.pathak.1656" target = "_blank" class="fab fa-facebook"></a></li>
+                        <li><a href="https://www.instagram.com/_bp14/" target = "_blank" class="fab fa-instagram"></a></li>
+                        <li><a href="https://www.linkedin.com/in/bipin-pathak-00ab39169/" target = "_blank" class="fab fa-linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">BIPIN PATHAK</h3>
+                    <span class="post">TECHNICAL HEAD</span>
+                </div>
+            </div>
+        </div>
          <div class="slide">  
             <div class="our-team">
                 <div class="pic">
@@ -825,23 +840,6 @@ html,body {
                     <span class="post">EMT</span>
                     <span class="post">WEB ADMIN</span>
 
-                </div>
-            </div>
-        </div>
-
-        <div class="slide">  
-            <div class="our-team">
-                <div class="pic">
-                    <img src="teamimg/bipin.jpg">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/bipin.pathak.1656" target = "_blank" class="fab fa-facebook"></a></li>
-                        <li><a href="https://www.instagram.com/_bp14/" target = "_blank" class="fab fa-instagram"></a></li>
-                        <li><a href="https://www.linkedin.com/in/bipin-pathak-00ab39169/" target = "_blank" class="fab fa-linkedin"></a></li>
-                    </ul>
-                </div>
-                <div class="team-content">
-                    <h3 class="title">BIPIN PATHAK</h3>
-                    <span class="post">TECHNICAL HEAD</span>
                 </div>
             </div>
         </div>
