@@ -338,6 +338,7 @@ html,body {
                                           <h3 style="position: absolute; top: 2%; color: wheat;font-family: 'Courgette', cursive; font-size: 40px; font-size-adjust: auto;">
                                           {{$event->heading}}</h3>
                                             <img src="{{$event->image}}" class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
+                                            {{$event->description}}
                                         </div>
                                       
                                       @endforeach
