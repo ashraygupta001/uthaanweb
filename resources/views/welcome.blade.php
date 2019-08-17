@@ -340,13 +340,6 @@ html,body {
                                             <img src="{{$event->image}}" class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
                                             <h4 class= "event-description ">
                                           {{$event->description}}</h4>
-                                          <h3 style="position: absolute; top: 67%">Winners</h3>
-                                          <h4 class= "event-winner">
-                                            {{$event->winners}}
-                                          </h4>
-                                          <h4 class= "event-date">
-                                            {{$event->date}}
-                                          </h4>
                                         </div>
                                       
                                       @endforeach
