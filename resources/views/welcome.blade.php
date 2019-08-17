@@ -59,7 +59,7 @@ html,body {
         <div class="item" style="background-image: url(img/431.jpg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
-          <h3 class="title" style="background-color:black;opacity: 0.5;">Bridging gap<br> between<br> Juniors and Seniors</h3>
+          <h3 class="title">Bridging gap<br> between<br> Juniors and Seniors</h3>
         </div>
       </div>
             <div class="slider-inner">
@@ -194,20 +194,20 @@ html,body {
              </div>
              <div class="article-bg" style="padding: 40px;">
                 <div class="container" style="margin-top: 100px;">
-                    <div class="row images">
+                    <div class="row images interview-image ">
                       <?php $count=0;?>
                       @foreach($articles as $article)
                         @if($count<3)
                        <a href="/article/{{$article->id}}"id="id07" class="id07">
                           <div class="col-sm-4">
                             <div class="thumbnail">
-                                <img src="{{$article->image1}}" class="img-responsive img-thumbnail" style = "height: 300px; width: 100%; ">
+                                <img src="{{$article->image1}}" class="img-responsive img-thumbnail">
                                     <div class="caption">
                                         <center>
-                                            <h3 class="article-head">
+                                            <h3 class="interview-head">
                                               {{$article->heading}}
                                             </h3>
-                                            <p style="font-family: Agency FB" class="article-content">{{$article->writer}}</p>
+                                            <p style="font-family: Agency FB" class="interview-content">{{$article->writer}}</p>
                                         </center>
                                     </div>
                             </div>
@@ -338,7 +338,6 @@ html,body {
                                           <h3 style="position: absolute; top: 2%; color: wheat;font-family: 'Courgette', cursive; font-size: 40px; font-size-adjust: auto;">
                                           {{$event->heading}}</h3>
                                             <img src="{{$event->image}}" class="event-img" style=" width: 300px; height: 200px; position: absolute; top: 15%;" />
-                                            {{$event->description}}
                                         </div>
                                       
                                       @endforeach
