@@ -98,7 +98,7 @@ html,body {
 				<div class="grid__img" style="background-image: url(img/5.jpg);"></div>
 						</div>
 						<div class="grid__item" data-delay="75" data-duration="800">
-							<div class="grid__img" style="background-image: url(img/5.jpg);"></div>
+							<div class="grid__img" style="background-image: url(img/4.jpg);"></div>
 						</div>
 					</div>
 					<div class="grid__column">
@@ -106,10 +106,10 @@ html,body {
 							<div class="grid__img" style="background-image: url(img/15.jpg);"></div>
 						</div>
 						<div class="grid__item" data-delay="150" data-duration="1200">
-							<div class="grid__img" style="background-image: url(img/4.jpg);"></div>
+							<div class="grid__img" style="background-image: url(img/40.jpg);"></div>
 						</div>
 						<div class="grid__item" data-delay="300" data-duration="500">
-							<div class="grid__img" style="background-image: url(img/13.jpg);"></div>
+							<div class="grid__img" style="background-image: url(img/41.jpg);"></div>
 						</div>
 					</div>
 					<div class="grid__column">

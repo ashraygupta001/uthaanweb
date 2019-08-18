@@ -31,7 +31,7 @@
         }
         </style>
         <style type="text/css">
-html,body {
+html,body, section{
         overflow-x:hidden ;
 }
 </style>
@@ -56,7 +56,7 @@ html,body {
             </div>
         </div>
 
-        <div class="item" style="background-image: url(img/431.jpg);">
+        <div class="item" style="background-image: url(img/142.jpg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
           <h3 class="title" style="background-color:black;opacity: 0.5;">Bridging gap<br> between<br> Juniors and Seniors</h3>
@@ -68,7 +68,7 @@ html,body {
         </div>
 
 
-        <div class="item" style="background-image: url(img/banner.jpg);">
+        <div class="item" style="background-image: url(img/group.jpeg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
           <h4 class="sub-title"><br><br>Uthaan IIITM</h4>
