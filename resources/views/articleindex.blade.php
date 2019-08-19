@@ -97,7 +97,7 @@ html {
 			              <div class="author mb-4 d-flex align-items-center">
 			            		<div class="ml-3 info">
 			            			<span>Written by</span>
-			            			<h3><a>{{$article->reporters}}</a><span>{{$article->created_at->format('F j, Y')}}</span></h3>
+			            			<h3><a>{{$article->writer}}</a><br><span>{{$article->created_at->format('F j, Y')}}</span></h3>
 			            		</div>
 			            	</div>
 			              <div class="meta-wrap d-md-flex align-items-center">
