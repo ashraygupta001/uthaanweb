@@ -201,7 +201,7 @@ html,body, section{
                        <a href="/article/{{$article->id}}"id="id07" class="id07">
                           <div class="col-sm-4">
                             <div class="thumbnail">
-                                <img src="{{$article->image1}}" class="img-responsive img-thumbnail">
+                                <img src="{{$article->image1}}" class="img-responsive img-thumbnail" style="height: 250px">
                                     <div class="caption">
                                         <center>
                                             <h3 class="interview-head">
