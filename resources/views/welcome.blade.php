@@ -48,7 +48,9 @@ html,body, section{
         <div class="item" style="background-image: url(img/adminblock.jpg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
+        <div class=" jumbotron">
           <h2 class="top-title">TO Seek,<br> To Find<br> and Not to Yield</h2>
+        </div>
         </div>
       </div>
             <div class="slider-inner">
@@ -59,7 +61,9 @@ html,body, section{
         <div class="item" style="background-image: url(img/142.jpg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
+          <div class=" jumbotron">
           <h3 class="title">Bridging gap<br> between<br> Juniors and Seniors</h3>
+</div>
         </div>
       </div>
             <div class="slider-inner">
@@ -71,7 +75,9 @@ html,body, section{
         <div class="item" style="background-image: url(img/group.jpeg);">
                    <div class="container text-center">
         <div class="wrapper wow fadeInUp delay-05s">
+          <div class =" jumbotron">
           <h4 class="sub-title"><br><br>Uthaan IIITM</h4>
+          </div>
         </div>
       </div>
             <div class="slider-inner">

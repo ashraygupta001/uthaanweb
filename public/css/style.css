@@ -2147,3 +2147,6 @@ footer img {
 		font-size: 10px;
 	}
 }
+#main-slider .jumbotron {
+	background-color: rgba(0,0,0,.5)
+}
